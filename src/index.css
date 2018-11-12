@@ -1,0 +1,31 @@
+@font-face {
+  font-family: Circular;
+  src: url('./_assets/fonts/CircularStd-Medium.otf') format('opentype'),
+    url('./_assets/fonts/CircularStd-Book.otf') format('opentype'),
+    url('./_assets/fonts/CircularStd-Book.woff') format('woff'),
+    url('./_assets/fonts/CircularStd-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: Circular Book;
+  src: url('./_assets/fonts/CircularStd-Book.otf') format('opentype'),
+    url('./_assets/fonts/CircularStd-Book.woff') format('woff');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #202020 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

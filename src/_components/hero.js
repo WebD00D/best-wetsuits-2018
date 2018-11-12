@@ -1,0 +1,319 @@
+import React, { Component } from 'react';
+import styled from 'react-emotion';
+
+import * as UI from '../_components/ui';
+import theme from '../theme.json';
+
+import Social from '../_components/social';
+
+import Logo from '../_assets/images/stab-logo-white.png';
+import HeroCover from '../_assets/images/sample/hero-cover.jpg';
+import VideoThumb from '../_assets/images/sample/video-thumb.jpg';
+import PlayButton from '../_assets/icons/play.png';
+import Arrow from '../_assets/icons/arrow.svg';
+
+const HeroWrap = styled('div')`
+  height: 650px;
+  display: flex;
+  position: relative;
+  margin-bottom: 100px;
+
+  @media (max-width: 992px) {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+`;
+
+const LeftPanel = styled('div')`
+  position: relative;
+  flex: 1;
+  min-width: 460px;
+  height: 100%;
+  background-color: ${theme.colors.lightBlack};
+
+  @media (max-width: 992px) {
+    min-width: 100px;
+    max-width: 100px;
+    width: 100px;
+  }
+
+  @media (max-width: 892px) {
+    min-width: 60px;
+    max-width: 60px;
+    width: 60px;
+  }
+`;
+
+const RightPanel = styled('div')`
+  position: relative;
+  height: 100%;
+  flex: 2;
+  background-color: ${theme.colors.black};
+  background-repeat: no-repeat;
+  background: url(${HeroCover});
+  background-size: cover;
+`;
+
+const Filter = styled('div')`
+  background-color: ${props =>
+    props.lighter ? theme.colors.filterLight : theme.colors.filter};
+  height: 100%;
+  width: 100%;
+  position: absolute;
+`;
+
+const NavButton = styled(UI.NavButton)`
+  position: absolute;
+  right: 0;
+  z-index: 4;
+  border-bottom-left-radius: 4px;
+
+  @media (max-width: 892px) {
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 40px;
+  }
+`;
+
+const StabLogo = styled('img')`
+  position: fixed;
+  height: 30px;
+  top: 30px;
+  left: 30px;
+  z-index: 20;
+
+  @media (max-width: 892px) {
+    left: 15px;
+    top: 15px;
+    height: 22px;
+  }
+`;
+
+const BottomBar = styled('div')`
+  height: 70px;
+  background-color: ${theme.colors.lightBlack};
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 1;
+
+  color: ${theme.colors.grey};
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  z-index: 4;
+
+  .text {
+    padding-right: 30px;
+  }
+
+  .mobile-arrow {
+    display: none;
+  }
+
+  @media (max-width: 992px) {
+    justify-content: flex-start;
+
+    .text {
+      display: none;
+    }
+
+    .mobile-arrow {
+      display: block;
+      left: 30px;
+      position: absolute;
+    }
+  }
+
+  @media (max-width: 892px) {
+    .mobile-arrow {
+      display: none;
+    }
+  }
+`;
+
+const VideoThumbnail = styled('div')`
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0px;
+  height: 200px;
+  width: 350px;
+  bottom: 0px;
+
+  background-image: url(${VideoThumb});
+  background-size: cover;
+  background-repeeat: no-repeat;
+  background-position: center;
+  box-shadow: 5px -5px 20px rgba(0, 0, 0, 0.19);
+  border-top-right-radius: 4px;
+
+  @media (max-width: 992px) {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 4px;
+    right: 0px;
+    left: initial;
+
+    width: 420px;
+    height: 250px;
+  }
+
+  @media (max-width: 892px) {
+    width: 100%;
+    border-top-left-radius: 0px;
+    height: 200px;
+  }
+`;
+
+const Play = styled('img')`
+  height: 50px;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+`;
+
+const ArrowDown = styled('img')`
+  transform: rotateZ(90deg);
+  height: 16px;
+  margin-left: 12px;
+`;
+
+const HeadlineWrap = styled('div')`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+
+  @media (max-width: 992px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+`;
+
+const Headline = styled('div')`
+  font-family: Circular;
+  font-style: normal;
+  line-height: 96px;
+  font-size: 76px;
+  letter-spacing: 1px;
+  color: ${theme.colors.white};
+  max-width: 1100px;
+  padding-left: 150px;
+
+  @media (max-width: 992px) {
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 60px;
+    line-height: 80px;
+    text-align: justify;
+    margin-bottom: 12px;
+  }
+
+  @media (max-width: 892px) {
+    font-size: 40px;
+    line-height: 60px;
+  }
+`;
+
+const Byline = styled('div')`
+  font-family: Circular;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 14px;
+  letter-spacing: 4px;
+  color: ${theme.colors.grey};
+  max-width: 1100px;
+  text-transform: uppercase;
+  padding-left: 150px;
+  margin-bottom: 150px;
+
+  @media (max-width: 992px) {
+    padding-left: 30px;
+    max-width: 400px;
+    font-size: 12px;
+    line-height: 22px;
+  }
+`;
+
+const HeroCaption = styled('div')`
+  font-family: sans-serif;
+  line-height: 40px;
+  font-size: 14px;
+  text-align: justify;
+  letter-spacing: 0.5px;
+  position: absolute;
+  bottom: 40px;
+  padding-right: 30px;
+  left: 150px;
+  line-height: 28px;
+  color: ${theme.colors.grey};
+
+  @media (max-width: 992px) {
+    width: 300px;
+    z-index: 3;
+    bottom: 100px;
+  }
+
+  @media (max-width: 892px) {
+    display: none;
+  }
+`;
+
+class Hero extends Component {
+  render() {
+    return (
+      <HeroWrap>
+        <HeadlineWrap>
+          <Headline>
+            Stab’s undefinitive guide to the best wetsuits of 2018
+          </Headline>
+          <Byline>
+            I DONT WRITE COPY, SO YA KNOW, JUST PLACEHOLDER STUFF HERE
+          </Byline>
+        </HeadlineWrap>
+
+        <LeftPanel>
+          <StabLogo src={Logo} />
+          <Social />
+          <HeroCaption>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi.
+          </HeroCaption>
+        </LeftPanel>
+        <RightPanel>
+          <NavButton href="https://www.stabmag.com">
+            VISIT STABMAG.COM
+          </NavButton>
+          <BottomBar>
+            <VideoThumbnail>
+              <Filter lighter />
+              <Play onClick={() => this.props.showVideo()} src={PlayButton} />
+            </VideoThumbnail>
+            <div className="mobile-arrow">
+              <ArrowDown src={Arrow} />
+            </div>
+            <div className="text">
+              ON LOCATION IN THE FRIGID BRINE OF SAN FRANCISCO, CA
+              <ArrowDown src={Arrow} />
+            </div>
+          </BottomBar>
+          <Filter />
+        </RightPanel>
+      </HeroWrap>
+    );
+  }
+}
+
+export default Hero;

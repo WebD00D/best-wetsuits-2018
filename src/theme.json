@@ -1,0 +1,11 @@
+{
+  "colors": {
+    "lightBlack": "#252525",
+    "black": "#202020",
+    "darkBlack": "#1D1C1C",
+    "white": "#ffffff",
+    "grey": "#C8C1C1",
+    "filter": "rgba(37,37,37,0.8)",
+    "filterLight": "rgba(37,37,37,0.3)"
+  }
+}
