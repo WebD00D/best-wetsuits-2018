@@ -16,7 +16,7 @@ const HeroWrap = styled('div')`
   height: 650px;
   display: flex;
   position: relative;
-  margin-bottom: 100px;
+  border-bottom: 1px solid #111;
 
   @media (max-width: 992px) {
     margin-left: auto;
@@ -67,7 +67,8 @@ const NavButton = styled(UI.NavButton)`
   position: absolute;
   right: 0;
   z-index: 4;
-  border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 2px;
+  background-color: #111;
 
   @media (max-width: 892px) {
     height: 40px;
@@ -94,6 +95,8 @@ const StabLogo = styled('img')`
 const BottomBar = styled('div')`
   height: 70px;
   background-color: ${theme.colors.lightBlack};
+  border-top: 1px solid #111;
+
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -101,6 +104,13 @@ const BottomBar = styled('div')`
   align-items: center;
   justify-content: flex-end;
   z-index: 1;
+  background-image: repeating-linear-gradient(
+    120deg,
+    #111,
+    #111 1px,
+    #202020 1px,
+    #202020 8px
+  );
 
   color: ${theme.colors.grey};
   font-size: 10px;
@@ -146,17 +156,18 @@ const VideoThumbnail = styled('div')`
   height: 200px;
   width: 350px;
   bottom: 0px;
+  left: 0px;
 
   background-image: url(${VideoThumb});
   background-size: cover;
   background-repeeat: no-repeat;
   background-position: center;
-  box-shadow: 5px -5px 20px rgba(0, 0, 0, 0.19);
-  border-top-right-radius: 4px;
+  box-shadow: 5px -5px 20px rgba(0, 0, 0, 0.20);
+  border-top-right-radius: 2px;
 
   @media (max-width: 992px) {
     border-top-right-radius: 0px;
-    border-top-left-radius: 4px;
+    border-top-left-radius: 2px;
     right: 0px;
     left: initial;
 
@@ -222,7 +233,7 @@ const Headline = styled('div')`
 
   @media (max-width: 892px) {
     font-size: 40px;
-    line-height: 60px;
+    line-height: 50px;
   }
 `;
 
@@ -239,9 +250,9 @@ const Byline = styled('div')`
   margin-bottom: 150px;
 
   @media (max-width: 992px) {
-    padding-left: 30px;
+    padding-left: 70px;
     max-width: 400px;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 22px;
   }
 `;
@@ -270,6 +281,23 @@ const HeroCaption = styled('div')`
   }
 `;
 
+const Bar = styled('div')`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #111;
+  width: 100px;
+  position: absolute;
+  height: 100%;
+  background-image: repeating-linear-gradient(
+    120deg,
+    #111,
+    #111 1px,
+    #202020 1px,
+    #202020 8px
+  );
+`;
+
 class Hero extends Component {
   render() {
     return (
@@ -284,6 +312,7 @@ class Hero extends Component {
         </HeadlineWrap>
 
         <LeftPanel>
+          <Bar />
           <StabLogo src={Logo} />
           <Social />
           <HeroCaption>

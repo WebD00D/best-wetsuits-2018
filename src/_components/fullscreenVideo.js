@@ -5,7 +5,7 @@ import * as UI from '../_components/ui';
 import theme from '../theme.json';
 
 import Hero from '../_components/hero';
-import Carousel from '../_components/carousel';
+import Carousel from './section';
 
 import Thumbnail from '../_assets/images/sample/video-thumb.jpg';
 import PlayButton from '../_assets/icons/play.png';

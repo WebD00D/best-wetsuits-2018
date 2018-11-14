@@ -7,7 +7,7 @@ import theme from './theme.json';
 import Logo from './_assets/images/stab-logo-white.png';
 
 import Hero from './_components/hero';
-import Carousel from './_components/carousel';
+import Section from './_components/section';
 import FullscreenVideo from './_components/fullscreenVideo';
 
 import VideoModal from './_components/videoModal';
@@ -18,8 +18,9 @@ const Title = styled('div')`
   text-decoration: none !important;
   text-align: center;
   letter-spacing: 6px;
-  font-size: 18px;
-  margin-bottom: 125px;
+  font-size: 12px;
+  margin-bottom: 100px;
+  margin-top: 100px;
 
   @media (max-width: 992px) {
     margin-bottom: 80px;
@@ -86,17 +87,17 @@ class App extends Component {
         {this.renderVideoPopup()}
         <Hero showVideo={() => this.showVideo()} />
         <Title>Winning Categories</Title>
-        <Carousel dir="right" num="01" />
-        <Carousel dir="left" num="02" />
-        <Carousel dir="right" num="03" />
-        <Carousel dir="left" num="04" />
+        <Section showVideo={() => this.showVideo()} num="01" />
+        <Section showVideo={() => this.showVideo()} num="02" />
+        <Section showVideo={() => this.showVideo()} num="03" />
+        <Section showVideo={() => this.showVideo()} num="04" />
 
-        <Title>Watch the Video</Title>
+        <Title>Watch Full Video</Title>
         <FullscreenVideo showVideo={() => this.showVideo()} />
 
-        <Title>Meet the brands</Title>
+        {/* <Title>Meet the brands</Title>
         <Carousel dir="right" num="01" />
-        <Carousel dir="left" num="02" />
+        <Carousel dir="left" num="02" /> */}
 
         <Footer>
           <StabLogo src={Logo} />

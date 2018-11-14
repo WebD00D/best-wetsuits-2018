@@ -14,7 +14,7 @@ const SocialWrap = styled('div')`
   flex-direction: column;
   position: relative;
   width: 30px;
-  position: fixed;
+  position: absolute;
   left: 30px;
   bottom: 130px;
   z-index: 12;
@@ -23,10 +23,7 @@ const SocialWrap = styled('div')`
     left: 15px;
   }
 
- @media (max-width: 892px) {
-   position: absolute;
-   bottom: 50px;
- }
+ 
 `;
 
 const SocialLink = styled('a')`
