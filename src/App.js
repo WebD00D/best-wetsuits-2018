@@ -95,9 +95,11 @@ class App extends Component {
         <Title>Watch Full Video</Title>
         <FullscreenVideo showVideo={() => this.showVideo()} />
 
-        {/* <Title>Meet the brands</Title>
-        <Carousel dir="right" num="01" />
-        <Carousel dir="left" num="02" /> */}
+        <Title>Meet the brands</Title>
+        <Section showVideo={() => this.showVideo()} num="01" />
+        <Section showVideo={() => this.showVideo()} num="02" />
+        <Section showVideo={() => this.showVideo()} num="03" />
+        <Section showVideo={() => this.showVideo()} num="04" />
 
         <Footer>
           <StabLogo src={Logo} />
