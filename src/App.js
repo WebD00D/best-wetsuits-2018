@@ -12,6 +12,8 @@ import FullscreenVideo from './_components/fullscreenVideo';
 
 import VideoModal from './_components/videoModal';
 
+import data from './_data/categories.json';
+
 const Title = styled('div')`
   color: ${theme.colors.grey};
   text-transform: uppercase;
@@ -60,46 +62,76 @@ class App extends Component {
     super(props);
 
     this.state = {
-      video: false
+      video: false,
+      url: ''
     };
   }
 
-  showVideo() {
+  showVideo(video) {
+    console.log(video)
     this.setState({
-      video: true
+      video: true,
+      url: video
     });
   }
 
   hideVideo() {
     this.setState({
-      video: false
+      video: false,
+      url: ''
     });
   }
 
   renderVideoPopup() {
     if (this.state.video)
-      return <VideoModal closeModal={() => this.hideVideo()} />;
+      return <VideoModal video={this.state.url} closeModal={() => this.hideVideo()} />;
   }
 
   render() {
+    const categories = Object.keys(data['categories']).map(key => {
+      console.log('single data');
+      const number = Number(key) + 1;
+
+      return (
+        <Section
+          key={key}
+          data={data['categories'][key]}
+          dir={number % 2 == 0 ? 'row-reverse' : 'row'}
+          showVideo={(video) => this.showVideo(video)}
+          num={`0${number}`}
+          type="category"
+        />
+      );
+    });
+
+    const brands = Object.keys(data['brands']).map(key => {
+      console.log('single brand data');
+      const number = Number(key) + 1;
+
+      return (
+        <Section
+          key={key}
+          data={data['brands'][key]}
+          dir={number % 2 == 0 ? 'row-reverse' : 'row'}
+          showVideo={(video) => this.showVideo(video)}
+          num={`0${number}`}
+          type="brand"
+        />
+      );
+    });
+
     return (
       <div>
         {this.renderVideoPopup()}
-        <Hero showVideo={() => this.showVideo()} />
+        <Hero showVideo={(video) => this.showVideo(video)} />
         <Title>Winning Categories</Title>
-        <Section showVideo={() => this.showVideo()} num="01" />
-        <Section showVideo={() => this.showVideo()} num="02" />
-        <Section showVideo={() => this.showVideo()} num="03" />
-        <Section showVideo={() => this.showVideo()} num="04" />
+        {categories}
 
         <Title>Watch Full Video</Title>
-        <FullscreenVideo showVideo={() => this.showVideo()} />
+        <FullscreenVideo showVideo={(video) => this.showVideo(video)} />
 
         <Title>Meet the brands</Title>
-        <Section showVideo={() => this.showVideo()} num="01" />
-        <Section showVideo={() => this.showVideo()} num="02" />
-        <Section showVideo={() => this.showVideo()} num="03" />
-        <Section showVideo={() => this.showVideo()} num="04" />
+        {brands}
 
         <Footer>
           <StabLogo src={Logo} />

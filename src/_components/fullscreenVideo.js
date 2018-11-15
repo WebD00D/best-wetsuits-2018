@@ -58,9 +58,16 @@ const Play = styled('img')`
 class FullscreenVideo extends Component {
   render() {
     return (
-      <Wrap thumb={Thumbnail}>
+      <Wrap thumb="https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/COF_NZ_Stab_bg_skin.jpg?alt=media&token=541421ce-6ebc-4493-963d-ec3d959905cc">
         <Filter />
-        <Play onClick={() => this.props.showVideo()} src={PlayButton} />
+        <Play
+          onClick={() =>
+            this.props.showVideo(
+              'https://www.youtube.com/embed/an1JW0QETzE?autoplay=1'
+            )
+          }
+          src={PlayButton}
+        />
       </Wrap>
     );
   }

@@ -1,0 +1,48 @@
+{
+  "categories": {
+    "0": {
+      "title": "the warmest three/two",
+      "featureURL": "https://www.stabmag.com",
+      "videoURL": "https://www.youtube.com/embed/an1JW0QETzE?autoplay=1",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/COF_NZ_Stab_bg_skin.jpg?alt=media&token=541421ce-6ebc-4493-963d-ec3d959905cc",
+      "paragraphs": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+      ]
+    },
+    "1": {
+      "title": "the warmest four/three",
+      "featureURL": "https://www.stabmag.com",
+      "videoURL": "https://www.youtube.com/embed/an1JW0QETzE?autoplay=1",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/COF_NZ_Stab_bg_skin.jpg?alt=media&token=541421ce-6ebc-4493-963d-ec3d959905cc",
+      "paragraphs": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+      ]
+    }
+  },
+  "brands": {
+    "0": {
+      "title": "Hurley",
+      "featureURL": "https://www.stabmag.com",
+      "videoURL": "https://www.youtube.com/embed/an1JW0QETzE?autoplay=1",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/COF_NZ_Stab_bg_skin.jpg?alt=media&token=541421ce-6ebc-4493-963d-ec3d959905cc",
+      "paragraphs": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+      ]
+    },
+    "1": {
+      "title": "Reef",
+      "featureURL": "https://www.stabmag.com",
+      "videoURL": "https://www.youtube.com/embed/an1JW0QETzE?autoplay=1",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/COF_NZ_Stab_bg_skin.jpg?alt=media&token=541421ce-6ebc-4493-963d-ec3d959905cc",
+      "paragraphs": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+      ]
+    }
+  }
+}

@@ -162,7 +162,7 @@ const VideoThumbnail = styled('div')`
   background-size: cover;
   background-repeeat: no-repeat;
   background-position: center;
-  box-shadow: 5px -5px 20px rgba(0, 0, 0, 0.20);
+  box-shadow: 5px -5px 20px rgba(0, 0, 0, 0.2);
   border-top-right-radius: 2px;
 
   @media (max-width: 992px) {
@@ -328,7 +328,14 @@ class Hero extends Component {
           <BottomBar>
             <VideoThumbnail>
               <Filter lighter />
-              <Play onClick={() => this.props.showVideo()} src={PlayButton} />
+              <Play
+                onClick={() =>
+                  this.props.showVideo(
+                    'https://www.youtube.com/embed/an1JW0QETzE?autoplay=1'
+                  )
+                }
+                src={PlayButton}
+              />
             </VideoThumbnail>
             <div className="mobile-arrow">
               <ArrowDown src={Arrow} />

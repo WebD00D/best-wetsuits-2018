@@ -56,11 +56,10 @@ export default class VideoModal extends Component {
         <IframeContainer>
     
           <IFrame
-            src="https://www.youtube.com/embed/an1JW0QETzE?autoplay=1"
+            src={this.props.video}
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
-            creen
           />
         </IframeContainer>
       </Wrap>
