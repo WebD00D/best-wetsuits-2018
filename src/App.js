@@ -68,7 +68,7 @@ class App extends Component {
   }
 
   showVideo(video) {
-    console.log(video)
+    console.log(video);
     this.setState({
       video: true,
       url: video
@@ -84,7 +84,12 @@ class App extends Component {
 
   renderVideoPopup() {
     if (this.state.video)
-      return <VideoModal video={this.state.url} closeModal={() => this.hideVideo()} />;
+      return (
+        <VideoModal
+          video={this.state.url}
+          closeModal={() => this.hideVideo()}
+        />
+      );
   }
 
   render() {
@@ -97,7 +102,7 @@ class App extends Component {
           key={key}
           data={data['categories'][key]}
           dir={number % 2 == 0 ? 'row-reverse' : 'row'}
-          showVideo={(video) => this.showVideo(video)}
+          showVideo={video => this.showVideo(video)}
           num={`0${number}`}
           type="category"
         />
@@ -113,7 +118,7 @@ class App extends Component {
           key={key}
           data={data['brands'][key]}
           dir={number % 2 == 0 ? 'row-reverse' : 'row'}
-          showVideo={(video) => this.showVideo(video)}
+          showVideo={video => this.showVideo(video)}
           num={`0${number}`}
           type="brand"
         />
@@ -123,19 +128,19 @@ class App extends Component {
     return (
       <div>
         {this.renderVideoPopup()}
-        <Hero showVideo={(video) => this.showVideo(video)} />
+        <Hero showVideo={video => this.showVideo(video)} />
         <Title>Winning Categories</Title>
         {categories}
 
         <Title>Watch Full Video</Title>
-        <FullscreenVideo showVideo={(video) => this.showVideo(video)} />
+        <FullscreenVideo showVideo={video => this.showVideo(video)} />
 
         <Title>Meet the brands</Title>
         {brands}
 
         <Footer>
           <StabLogo src={Logo} />
-          <Caption>BEST BOARD SHORTS 2018</Caption>
+          <Caption>BEST WETSUITS 2018</Caption>
         </Footer>
       </div>
     );
