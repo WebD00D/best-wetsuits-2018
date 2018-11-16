@@ -129,7 +129,7 @@ class App extends Component {
       <div>
         {this.renderVideoPopup()}
         <Hero showVideo={video => this.showVideo(video)} />
-        <Title>Winning Categories</Title>
+        <Title>Categories</Title>
         {categories}
 
         <Title>Watch Full Video</Title>

@@ -94,7 +94,8 @@ const Video = styled('div')`
 
   background-image: url(${props => props.bg});
   background-size: cover;
-  background-position: center;
+  background-position: ${props =>
+    props.specialAlignment ? 'right' : 'center'};
   background-repeat: no-repeat;
   transition: 0.8s ease;
 `;
@@ -135,7 +136,7 @@ const ContentWrapper = styled('div')`
       color: #ccc;
       margin: 0px;
       font-family: Circular Book;
-      max-width: 70%;
+      max-width: 85%;
       text-align: justify;
       font-size: 32px;
       letter-spacing: 2px;
@@ -219,7 +220,7 @@ const Container = styled('div')`
     }
 
     .video-preview {
-      transform: scale(1.15);
+      transform: scale(1.08);
     }
 
     .toggle-button {
@@ -249,11 +250,17 @@ const Container = styled('div')`
     }
 
     .video-preview {
-      transform: scale(1.15);
+      transform: scale(1);
     }
 
     .toggle-button {
       transform: translateX(50px);
+    }
+
+    &:hover {
+      .video-preview {
+        transform: scale(1);
+      }
     }
   }
 `;
@@ -262,7 +269,6 @@ const PlayButton = styled('img')`
   cursor: pointer;
   height: 45px;
 `;
-
 
 const FlexWrap = styled('div')`
   display: flex;
@@ -298,8 +304,15 @@ class Section extends Component {
       <Container>
         <FlexWrap dir={this.props.dir}>
           <VideoPreview>
-            <Video className="video-preview" bg={this.props.data.thumbnail}>
-              <PlayButton onClick={() => this.props.showVideo(this.props.data.videoURL)} src={Play} />
+            <Video
+              specialAlignment={this.props.data.specialAlignment}
+              className="video-preview"
+              bg={this.props.data.thumbnail}
+            >
+              <PlayButton
+                onClick={() => this.props.showVideo(this.props.data.videoURL)}
+                src={Play}
+              />
             </Video>
           </VideoPreview>
           <ContentWrapper>
@@ -311,14 +324,24 @@ class Section extends Component {
               </Number>
             </CategoryBar>
             <div className="container">
-              <div className="section-title dt">
+              <div className="section-title">
                 <label>{this.props.type}</label>
                 <h2>{this.props.data && this.props.data.title}</h2>
               </div>
               <div>
                 <div className="section-summary">
                   {paragraphs}
-                  <a target="_blank" href={this.props.data.featureURL} className="read-more">VIEW FULL FEATURE</a>
+                  {this.props.type === 'brand' ? (
+                    <a
+                      target="_blank"
+                      href={this.props.data.featureURL}
+                      className="read-more"
+                    >
+                      VIEW FULL FEATURE
+                    </a>
+                  ) : (
+                    ''
+                  )}
                 </div>
               </div>
             </div>

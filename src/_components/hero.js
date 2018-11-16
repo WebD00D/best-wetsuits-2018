@@ -7,8 +7,8 @@ import theme from '../theme.json';
 import Social from '../_components/social';
 
 import Logo from '../_assets/images/stab-logo-white.png';
-import HeroCover from '../_assets/images/sample/hero-cover.jpg';
-import VideoThumb from '../_assets/images/sample/video-thumb.jpg';
+import HeroCover from '../_assets/images/sample/hero.JPG';
+import VideoThumb from '../_assets/images/sample/thum-cover-big.jpg';
 import PlayButton from '../_assets/icons/play.png';
 import Arrow from '../_assets/icons/arrow.svg';
 
@@ -53,6 +53,7 @@ const RightPanel = styled('div')`
   background-repeat: no-repeat;
   background: url(${HeroCover});
   background-size: cover;
+  background-position: left;
 `;
 
 const Filter = styled('div')`
@@ -214,12 +215,13 @@ const HeadlineWrap = styled('div')`
 const Headline = styled('div')`
   font-family: Circular;
   font-style: normal;
-  line-height: 96px;
-  font-size: 76px;
+  line-height: 85px;
+  font-size: 70px;
   letter-spacing: 1px;
   color: ${theme.colors.white};
   max-width: 1100px;
   padding-left: 150px;
+  text-align: left;
 
   @media (max-width: 992px) {
     max-width: 100%;
@@ -232,8 +234,9 @@ const Headline = styled('div')`
   }
 
   @media (max-width: 892px) {
-    font-size: 40px;
+    font-size: 36px;
     line-height: 50px;
+    text-align: left;
   }
 `;
 
@@ -246,14 +249,16 @@ const Byline = styled('div')`
   color: ${theme.colors.grey};
   max-width: 1100px;
   text-transform: uppercase;
-  padding-left: 150px;
+  padding-left: 180px;
   margin-bottom: 150px;
+  margin-top: 40px;
 
   @media (max-width: 992px) {
     padding-left: 70px;
     max-width: 400px;
     font-size: 10px;
     line-height: 22px;
+    margin-top: 0px;
   }
 `;
 
@@ -304,13 +309,11 @@ class Hero extends Component {
       <HeroWrap>
         <HeadlineWrap>
           <Headline>
-            Stab’s undefinitive guide to the best wetsuits of 2018
+            Stab’s comprehensive field test and guide to the year’s best
+            wetsuits
           </Headline>
-          <Byline>
-            I DONT WRITE COPY, SO YA KNOW, JUST PLACEHOLDER STUFF HERE
-          </Byline>
+          <Byline>You've got winter.</Byline>
         </HeadlineWrap>
-
         <LeftPanel>
           <Bar />
           <StabLogo src={Logo} />
@@ -331,7 +334,7 @@ class Hero extends Component {
               <Play
                 onClick={() =>
                   this.props.showVideo(
-                    'https://www.youtube.com/embed/an1JW0QETzE?autoplay=1'
+                    'https://www.youtube.com/embed/cF0cbN_OAJE?autoplay=1'
                   )
                 }
                 src={PlayButton}

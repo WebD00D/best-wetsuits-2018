@@ -11,7 +11,62 @@
       ]
     },
     "1": {
-      "title": "the warmest four/three",
+      "title": "the stretch award four/three",
+      "featureURL": "https://www.stabmag.com",
+      "videoURL": "https://www.youtube.com/embed/an1JW0QETzE?autoplay=1",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/COF_NZ_Stab_bg_skin.jpg?alt=media&token=541421ce-6ebc-4493-963d-ec3d959905cc",
+      "paragraphs": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+      ]
+    },
+    "2": {
+      "title": "the comfort connoisseur four/three",
+      "featureURL": "https://www.stabmag.com",
+      "videoURL": "https://www.youtube.com/embed/an1JW0QETzE?autoplay=1",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/COF_NZ_Stab_bg_skin.jpg?alt=media&token=541421ce-6ebc-4493-963d-ec3d959905cc",
+      "paragraphs": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+      ]
+    },
+    "3": {
+      "title": "the comfort connoisseur five/four/three",
+      "featureURL": "https://www.stabmag.com",
+      "videoURL": "https://www.youtube.com/embed/an1JW0QETzE?autoplay=1",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/COF_NZ_Stab_bg_skin.jpg?alt=media&token=541421ce-6ebc-4493-963d-ec3d959905cc",
+      "paragraphs": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+      ]
+    },
+    "4": {
+      "title": "the budget warrior (four/three under $300)",
+      "featureURL": "https://www.stabmag.com",
+      "videoURL": "https://www.youtube.com/embed/an1JW0QETzE?autoplay=1",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/COF_NZ_Stab_bg_skin.jpg?alt=media&token=541421ce-6ebc-4493-963d-ec3d959905cc",
+      "paragraphs": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+      ]
+    },
+    "5": {
+      "title": "champagne and caviar (the best lux suit over $450)",
+      "featureURL": "https://www.stabmag.com",
+      "videoURL": "https://www.youtube.com/embed/an1JW0QETzE?autoplay=1",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/COF_NZ_Stab_bg_skin.jpg?alt=media&token=541421ce-6ebc-4493-963d-ec3d959905cc",
+      "paragraphs": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+      ]
+    },
+    "6": {
+      "title": "feeling lovely (most stylish)",
       "featureURL": "https://www.stabmag.com",
       "videoURL": "https://www.youtube.com/embed/an1JW0QETzE?autoplay=1",
       "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/COF_NZ_Stab_bg_skin.jpg?alt=media&token=541421ce-6ebc-4493-963d-ec3d959905cc",
@@ -24,25 +79,121 @@
   },
   "brands": {
     "0": {
-      "title": "Hurley",
+      "title": "O'Neill",
       "featureURL": "https://www.stabmag.com",
-      "videoURL": "https://www.youtube.com/embed/an1JW0QETzE?autoplay=1",
-      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/COF_NZ_Stab_bg_skin.jpg?alt=media&token=541421ce-6ebc-4493-963d-ec3d959905cc",
+      "videoURL": "https://www.youtube.com/embed/rZ_D2zRisOY?autoplay=1",
+      "specialAlignment": true,
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/onel%20hero.jpg?alt=media&token=52675a51-9f52-44d4-b216-c41d6dd352ed",
       "paragraphs": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
       ]
     },
     "1": {
-      "title": "Reef",
+      "title": "Vissla",
       "featureURL": "https://www.stabmag.com",
-      "videoURL": "https://www.youtube.com/embed/an1JW0QETzE?autoplay=1",
-      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/COF_NZ_Stab_bg_skin.jpg?alt=media&token=541421ce-6ebc-4493-963d-ec3d959905cc",
+      "videoURL": "https://www.youtube.com/embed/E0Y7axRQdZY?autoplay=1",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/C42I3829.jpg?alt=media&token=512de13d-9bf5-49b9-96c9-913d05188d98",
+      "paragraphs": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+      ]
+    },
+    "2": {
+      "title": "Feral",
+      "featureURL": "https://www.stabmag.com",
+      "videoURL": "https://www.youtube.com/embed/1FyzoFsqGg4?autoplay=1",
+      "specialAlignment": true,
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/FeralHero.JPG?alt=media&token=62dcecfd-f115-4ef3-bbcb-af8fa40790e9",
       "paragraphs": [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
       ]
+    },
+    "3": {
+      "title": "Billabong",
+      "featureURL": "https://www.stabmag.com",
+      "videoURL": "https://www.youtube.com/embed/51w1X2Bn59U?autoplay=1",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/DSCF6475.jpg?alt=media&token=7f328763-cb5f-450a-af77-67f911f8a11a",
+      "paragraphs": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+      ]
+    },
+    "4": {
+      "title": "Quiksilver",
+      "featureURL": "https://www.stabmag.com",
+      "videoURL": "https://www.youtube.com/embed/rBxUZfN0drI?autoplay=1",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/C42I8472.jpg?alt=media&token=5470ef28-692b-46a1-b349-3b7899978dc9",
+      "paragraphs": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+      ]
+    },
+    "5": {
+      "title": "Xcel",
+      "featureURL": "https://www.stabmag.com",
+      "videoURL": "https://www.youtube.com/embed/ICeLIVKWDaQ?autoplay=1",
+      "specialAlignment": true,
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/Xcel%20hero%20.jpg?alt=media&token=25c91839-99fe-4ba8-98f1-ce40b3465aa0",
+      "paragraphs": [
+        "We applaud Xcel for being the most consistently high-quality suit on the market.",
+        "For our test, Xcel sent us three pieces of rubber to sample. And, after our wetsuiteers, being Noah Wegrich, Blair Conklin and Jesse Gugliemana, gave each one a run, we came to the conclusion, that Xcel is, in fact, a damn fine purveyor of comfort, flex and warmth.",
+        "Here we highlight the Comp X $365USD, The Drylock X 3/2 $485USD, and And, the Drylock X 4/3 $500USD. The Comp X, won the SIMA award in 2017 for the best suit of the year, and in “You’ve Got Winter” won over our field tester’s hearts. Although the Comp X didn’t take gold in comfort and stretch, it did come in second, with Noah “Waggy” Wegrich giving it his first pick. The Comp X also came in second in the good looks department.",
+        "Xcel’s crème de la crème suits, the Drylock Xs will run you near $500USD, they’re near watertight, cozy and well worth the expense."
+      ]
+    },
+    "6": {
+      "title": "Rip Curl",
+      "featureURL": "https://www.stabmag.com",
+      "videoURL": "https://www.youtube.com/embed/dBcIQh3qiNA?autoplay=1",
+      "specialAlignment": true,
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/Rip%20Curl%20REc.jpg?alt=media&token=10a67047-89c8-49e9-89e3-f3c50cdfb15f",
+      "paragraphs": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+      ]
+    },
+    "7": {
+      "title": "Hurley",
+      "featureURL": "https://www.stabmag.com",
+      "videoURL": "https://www.youtube.com/embed/E_LhWQz9kQc?autoplay=1",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/C42I8729.JPG?alt=media&token=fd464f90-fa8b-4fc9-8541-9f29e289a41b",
+      "paragraphs": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+      ]
+    },
+    "8": {
+      "title": "7till8",
+      "featureURL": "https://www.stabmag.com",
+      "videoURL": "https://www.youtube.com/embed/y8K4J7m4Nkw?autoplay=1",
+      "specialAlignment": true,
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/7till8%20Hero%20.jpg?alt=media&token=4c4088de-816c-44d3-a0bb-12f79848fe36",
+      "paragraphs": [
+        "Here’s another neoprene specialist that likely sits outside your radar. The Los Angeles custom wetsuit manufacturer, 7till8, took the highest reward in our Champagne and Caviar category (the finest wetsuit for over $450USD).",
+        "7till8 sent us a 4/3mm which costs the same as their 3/2mm, 3mm, 5/4/3mm, etc: $580USD.",
+        "All of 7till8’s wetsuits are made from Yamamoto Japanese Neoprene, and every suit they make is a custom order. It’s this extra care that gave 7till8 the nods for the best Luxury suit from Blair Conklin, Noah Wegrich, Jesse Gugliemana and our senior editor, Morgan Williamson."
+      ]
+    },
+    "9": {
+      "title": "Volcom",
+      "featureURL": "https://www.stabmag.com",
+      "videoURL": "https://www.youtube.com/embed/Tcv7QNa1bkk?autoplay=1",
+      "specialAlignment": true,
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/C42I9843.JPG?alt=media&token=4bdd76fa-ea01-433e-a2b9-cf926f809fca",
+      "paragraphs": [
+        "The Stone has entered the wetsuit game with diamonds blazing. They’ve teamed up with Feral to produce their first wetsuit available to the every-person called the Deadly Stone. It’s a 3/2mm. It’s a backzip. It’s made from Yamamoto Neoprene.",
+        "It’s cozier than a campfire. And, if you’ve always dreamt of walking into the water repping with youth against establishment branded across your slick skin, go on and shop Volcom’s first step into the every(wo)man’s wetsuit realm.",
+        "The Deadly Stone cost $375USD and is available on Volcom’s online store."
+      ]
     }
+
   }
 }

@@ -7,7 +7,7 @@ import theme from '../theme.json';
 import Hero from '../_components/hero';
 import Carousel from './section';
 
-import Thumbnail from '../_assets/images/sample/video-thumb.jpg';
+import Thumbnail from '../_assets/images/sample/thum-cover-big.jpg';
 import PlayButton from '../_assets/icons/play.png';
 
 const Wrap = styled('div')`
@@ -42,6 +42,7 @@ const Filter = styled('div')`
   background-color: ${theme.colors.filter};
   width: 100%;
   height: 100%;
+  opacity: 0.6;
 `;
 
 const Play = styled('img')`
@@ -58,12 +59,12 @@ const Play = styled('img')`
 class FullscreenVideo extends Component {
   render() {
     return (
-      <Wrap thumb="https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/COF_NZ_Stab_bg_skin.jpg?alt=media&token=541421ce-6ebc-4493-963d-ec3d959905cc">
+      <Wrap thumb={Thumbnail}>
         <Filter />
         <Play
           onClick={() =>
             this.props.showVideo(
-              'https://www.youtube.com/embed/an1JW0QETzE?autoplay=1'
+              'https://www.youtube.com/embed/cF0cbN_OAJE?autoplay=1'
             )
           }
           src={PlayButton}
