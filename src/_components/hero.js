@@ -209,7 +209,7 @@ const HeadlineWrap = styled('div')`
   height: 100%;
 
   @media (max-width: 992px) {
-    padding-top: 100px;
+    padding-top: 80px;
     margin-left: auto;
     margin-right: auto;
   }
