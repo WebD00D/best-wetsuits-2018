@@ -94,8 +94,11 @@ class App extends Component {
 
   render() {
     const categories = Object.keys(data['categories']).map(key => {
-      console.log('single data');
-      const number = Number(key) + 1;
+      let number = Number(key) + 1;
+
+      if (number < 10) {
+        number = `0${number}`;
+      }
 
       return (
         <Section
@@ -103,15 +106,18 @@ class App extends Component {
           data={data['categories'][key]}
           dir={number % 2 == 0 ? 'row-reverse' : 'row'}
           showVideo={video => this.showVideo(video)}
-          num={`0${number}`}
+          num={number}
           type="category"
         />
       );
     });
 
     const brands = Object.keys(data['brands']).map(key => {
-      console.log('single brand data');
-      const number = Number(key) + 1;
+      let number = Number(key) + 1;
+
+      if (number < 10) {
+        number = `0${number}`;
+      }
 
       return (
         <Section
@@ -119,7 +125,7 @@ class App extends Component {
           data={data['brands'][key]}
           dir={number % 2 == 0 ? 'row-reverse' : 'row'}
           showVideo={video => this.showVideo(video)}
-          num={`0${number}`}
+          num={number}
           type="brand"
         />
       );
@@ -129,14 +135,15 @@ class App extends Component {
       <div>
         {this.renderVideoPopup()}
         <Hero showVideo={video => this.showVideo(video)} />
-        <Title>Categories</Title>
-        {categories}
+
+        <Title>Meet the brands</Title>
+        {brands}
 
         <Title>Watch Full Video</Title>
         <FullscreenVideo showVideo={video => this.showVideo(video)} />
 
-        <Title>Meet the brands</Title>
-        {brands}
+        <Title>Categories</Title>
+        {categories}
 
         <Footer>
           <StabLogo src={Logo} />

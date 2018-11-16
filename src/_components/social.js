@@ -16,14 +16,12 @@ const SocialWrap = styled('div')`
   width: 30px;
   position: absolute;
   left: 30px;
-  bottom: 130px;
+  bottom: 170px;
   z-index: 12;
 
   @media (max-width: 992px) {
     left: 15px;
   }
-
- 
 `;
 
 const SocialLink = styled('a')`
@@ -46,12 +44,13 @@ const StabMagText = styled('a')`
   text-transform: uppercase;
   transform: rotateZ(-90deg);
   position: absolute;
-  bottom: -60px;
-  left: -30px;
+  bottom: -70px;
+  left: -49px;
+  width: 120px;
   text-decoration: none;
 
   @media (max-width: 992px) {
-    left: -35px;
+    left: -53px;
   }
 `;
 
@@ -59,19 +58,18 @@ class Social extends Component {
   render() {
     return (
       <SocialWrap>
-        <SocialLink href="#">
+        <SocialLink href="https://www.instagram.com/stab/">
           <img src={Instagram} />
         </SocialLink>
-        <SocialLink href="#">
+        <SocialLink href="https://twitter.com/Stabmagazine?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
           <img src={Twitter} />
         </SocialLink>
-        <SocialLink href="#">
+        <SocialLink href="https://www.facebook.com/StabSurfMagazine/">
           <img src={Facebook} />
         </SocialLink>
-        <SocialLink href="#">
-          <img src={Share} />
-        </SocialLink>
-        <StabMagText target="_blank" href="https://www.stabmag.com">Stabmag.com</StabMagText>
+        <StabMagText target="_blank" href="https://www.stabmag.com">
+          BEST WETSUITS 2018
+        </StabMagText>
       </SocialWrap>
     );
   }

@@ -13,12 +13,13 @@ import PlayButton from '../_assets/icons/play.png';
 import Arrow from '../_assets/icons/arrow.svg';
 
 const HeroWrap = styled('div')`
-  height: 650px;
+  height: 720px;
   display: flex;
   position: relative;
   border-bottom: 1px solid #111;
 
   @media (max-width: 992px) {
+    height: 600px;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
@@ -28,7 +29,7 @@ const HeroWrap = styled('div')`
 const LeftPanel = styled('div')`
   position: relative;
   flex: 1;
-  min-width: 460px;
+  min-width: 600px;
   height: 100%;
   background-color: ${theme.colors.lightBlack};
 
@@ -198,7 +199,8 @@ const ArrowDown = styled('img')`
 
 const HeadlineWrap = styled('div')`
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-top: 175px;
   flex-direction: column;
   align-items: flex-start;
   position: absolute;
@@ -207,6 +209,7 @@ const HeadlineWrap = styled('div')`
   height: 100%;
 
   @media (max-width: 992px) {
+    padding-top: 100px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -225,7 +228,7 @@ const Headline = styled('div')`
 
   @media (max-width: 992px) {
     max-width: 100%;
-    padding-left: 30px;
+    padding-left: 50px;
     padding-right: 30px;
     font-size: 60px;
     line-height: 80px;
@@ -234,10 +237,12 @@ const Headline = styled('div')`
   }
 
   @media (max-width: 892px) {
-    font-size: 36px;
+    font-size: 34px;
     line-height: 50px;
     text-align: left;
   }
+
+
 `;
 
 const Byline = styled('div')`
@@ -260,12 +265,14 @@ const Byline = styled('div')`
     line-height: 22px;
     margin-top: 0px;
   }
+
+  
 `;
 
 const HeroCaption = styled('div')`
   font-family: sans-serif;
-  line-height: 40px;
-  font-size: 14px;
+  line-height: 20px;
+  font-size: 12px;
   text-align: justify;
   letter-spacing: 0.5px;
   position: absolute;
@@ -276,12 +283,22 @@ const HeroCaption = styled('div')`
   color: ${theme.colors.grey};
 
   @media (max-width: 992px) {
-    width: 300px;
-    z-index: 3;
-    bottom: 100px;
+    z-index: 6;
+    width: 400px;
+    left: 65px;
+    bottom: 50px;
   }
 
   @media (max-width: 892px) {
+    width: 600px;
+    bottom: 230px;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    left: 70px;
+  }
+
+  @media (max-width: 682px) {
     display: none;
   }
 `;
@@ -312,16 +329,19 @@ class Hero extends Component {
             Stab’s comprehensive field test and guide to the year’s best
             wetsuits
           </Headline>
-          <Byline>You've got winter.</Byline>
         </HeadlineWrap>
         <LeftPanel>
           <Bar />
           <StabLogo src={Logo} />
           <Social />
           <HeroCaption>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi.
+            “You’ve Got Winter” is the result of four grown men, Noah Wegrich,
+            Blair Conklin, Jesse Guglielmana and Stab Senior Ed. Morgan
+            Williamson, sampling upwards of 70 total wetsuits while frolicking
+            in the ocean for five days. We enlisted ten of the world’s finest
+            neoprene manufacturers, a 15 passenger van and a helluva lot of
+            miles up and down the California coast. If you’re in the market for
+            a new wetsuit for the 2018/2019 winter season, consult this first.
           </HeroCaption>
         </LeftPanel>
         <RightPanel>
@@ -344,7 +364,7 @@ class Hero extends Component {
               <ArrowDown src={Arrow} />
             </div>
             <div className="text">
-              ON LOCATION IN THE FRIGID BRINE OF SAN FRANCISCO, CA
+              OCEAN BEACH, SAN FRANCISCO, CA
               <ArrowDown src={Arrow} />
             </div>
           </BottomBar>

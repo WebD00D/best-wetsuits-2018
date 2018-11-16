@@ -3,84 +3,98 @@
     "0": {
       "title": "the warmest three/two",
       "featureURL": "https://www.stabmag.com",
-      "videoURL": "https://www.youtube.com/embed/an1JW0QETzE?autoplay=1",
-      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/COF_NZ_Stab_bg_skin.jpg?alt=media&token=541421ce-6ebc-4493-963d-ec3d959905cc",
+      "videoURL": "https://www.youtube.com/embed/KXWHeA_LWQc?autoplay=1",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/LIFESTYLE_1.JPG?alt=media&token=2f506bdc-57ee-49ad-bf36-acef8dd701e2",
       "paragraphs": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+        "The Warmest 3/2mm of the season was the Rip Curl Heat Seeker. Wetsuits competing for the title were:"
+      ],
+      "wetsuits": [
+        "Billabong Furnace Carbon Ultra: $399USD",
+        "Rip Curl Heat Seeker: $499USD",
+        "Feral 3/2mm: $375USD",
+        "Volcom Deadly Stone: $375USD",
+        "Quiksilver Highline Plus: $325USD",
+        "Vissla North Seas: $289USD",
+        "Xcel Drylock X: $485USD"
       ]
     },
     "1": {
-      "title": "the stretch award four/three",
+      "title": "the comfort stretch award four/three",
       "featureURL": "https://www.stabmag.com",
-      "videoURL": "https://www.youtube.com/embed/an1JW0QETzE?autoplay=1",
-      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/COF_NZ_Stab_bg_skin.jpg?alt=media&token=541421ce-6ebc-4493-963d-ec3d959905cc",
+      "videoURL": "https://www.youtube.com/embed/cW_yAcaRMl4?autoplay=1",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/LIFESTYLE2.JPG?alt=media&token=55e7e901-5926-4435-94a0-002b02f1bdb8",
       "paragraphs": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+        "The wetsuit for those who like their yoga in silk pants is the O’Neill Hyperfreak III. The Wetsuits entered into the Stretchiest and Comfiest 4/3mm category were:"
+      ],
+      "wetsuits": [
+        "Vissla North Seas: $299USD",
+        "7till8: $580USD",
+        "Rip Curl E-Bomb: $299USD",
+        "Billabong Furnace Carbon Ultra: $410USD",
+        "O’Neill Hyperfreak III: $299USD",
+        "Feral 4/3mm: $385USD",
+        "Xcel Comp X: $365USD"
       ]
     },
+
     "2": {
-      "title": "the comfort connoisseur four/three",
+      "title": "champagne and caviar ",
       "featureURL": "https://www.stabmag.com",
-      "videoURL": "https://www.youtube.com/embed/an1JW0QETzE?autoplay=1",
-      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/COF_NZ_Stab_bg_skin.jpg?alt=media&token=541421ce-6ebc-4493-963d-ec3d959905cc",
-      "paragraphs": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+      "videoURL": "https://www.youtube.com/embed/rDQwWX5sbMY?autoplay=1",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/LIFESTYLE6.JPG?alt=media&token=c3b4df20-3b28-448c-8dd5-667c2a94a30a",
+      "paragraphs": ["The best lux suits over $450"],
+      "wetsuits": [
+        "Rip Curl Heat Seeker: $499USD",
+        "7Till8 4/3mm Custom: $580USD",
+        "Hurley 3mm Advantage Elite: $750USD",
+        "O’Neill Psycho Freak: $530USD",
+        "Xcel Drylock X: $500USD"
       ]
     },
+
     "3": {
-      "title": "the comfort connoisseur five/four/three",
+      "title": "the budget warrior (under $300)",
       "featureURL": "https://www.stabmag.com",
-      "videoURL": "https://www.youtube.com/embed/an1JW0QETzE?autoplay=1",
-      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/COF_NZ_Stab_bg_skin.jpg?alt=media&token=541421ce-6ebc-4493-963d-ec3d959905cc",
+      "videoURL": "https://www.youtube.com/embed/jJP9J_lFeYM?autoplay=1",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/LIFESTYLE5.JPG?alt=media&token=c6739555-f8ef-43b9-b4e5-719ba1b62b0e",
       "paragraphs": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+        "The finest wetsuit for the frugal is the O’Neill Hyperfreak III"
+      ],
+      "wetsuits": [
+        "Billabong Furnace Revolution $209USD",
+        "Rip Curl E-Bomb: $299USD",
+        "Vissla 7 Seas: $224USD",
+        "O’Neill Hyperfreak II: $299USD"
       ]
     },
+
     "4": {
-      "title": "the budget warrior (four/three under $300)",
+      "title": "the fastest drying",
       "featureURL": "https://www.stabmag.com",
-      "videoURL": "https://www.youtube.com/embed/an1JW0QETzE?autoplay=1",
-      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/COF_NZ_Stab_bg_skin.jpg?alt=media&token=541421ce-6ebc-4493-963d-ec3d959905cc",
+      "videoURL": "https://www.youtube.com/embed/-b5b2-UaF-w?autoplay=1",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/LIFESTYLE3.JPG?alt=media&token=c6739555-f8ef-43b9-b4e5-719ba1b62b0e",
       "paragraphs": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
-      ]
+        "All suits entered the fastest drying category, but after one use of the Rip Curl Heat Seeker featuring their Flashbomb lining, it was clear, no suit dries as fast as a Rip Curl. "
+      ],
+      "wetsuits": []
     },
+
     "5": {
-      "title": "champagne and caviar (the best lux suit over $450)",
-      "featureURL": "https://www.stabmag.com",
-      "videoURL": "https://www.youtube.com/embed/an1JW0QETzE?autoplay=1",
-      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/COF_NZ_Stab_bg_skin.jpg?alt=media&token=541421ce-6ebc-4493-963d-ec3d959905cc",
-      "paragraphs": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
-      ]
-    },
-    "6": {
       "title": "feeling lovely (most stylish)",
       "featureURL": "https://www.stabmag.com",
-      "videoURL": "https://www.youtube.com/embed/an1JW0QETzE?autoplay=1",
-      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/COF_NZ_Stab_bg_skin.jpg?alt=media&token=541421ce-6ebc-4493-963d-ec3d959905cc",
+      "videoURL": "https://www.youtube.com/embed/NhZ_M4qQAv4?autoplay=1",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/LIFESTYLE7.jpg?alt=media&token=1badec12-cf58-45ac-8701-74db14f1e061",
       "paragraphs": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
-      ]
+        "Like the fastest drying, every suit was entered into the best looking category. After careful analysis, the Feral 4/3mm backzip was unanimously voted the sexiest wetsuit on the market.",
+        "Just like the 90’s, backzips are back!"
+      ],
+      "wetsuits": []
     }
   },
   "brands": {
     "0": {
       "title": "O'Neill",
-      "featureURL": "https://www.stabmag.com",
+      "featureURL": "https://stabmag.com/style/one-brand-produces-the-all-around-most-comfortable-and-stretchiest-suits-of-2018-oneill",
       "videoURL": "https://www.youtube.com/embed/rZ_D2zRisOY?autoplay=1",
       "specialAlignment": true,
       "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/RECOMMENDS_ONEILL.jpg?alt=media&token=72faeeaf-15e6-40a0-b186-a6c844ab39c2",
@@ -91,7 +105,7 @@
     },
     "1": {
       "title": "Vissla",
-      "featureURL": "https://www.stabmag.com",
+      "featureURL": "https://stabmag.com/style/do-you-like-wetsuits-that-wont-hammer-your-piggiebank-vissla",
       "videoURL": "https://www.youtube.com/embed/E0Y7axRQdZY?autoplay=1",
       "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/C42I3829.jpg?alt=media&token=512de13d-9bf5-49b9-96c9-913d05188d98",
       "paragraphs": [
@@ -103,7 +117,7 @@
     },
     "2": {
       "title": "Feral",
-      "featureURL": "https://www.stabmag.com",
+      "featureURL": "https://stabmag.com/style/this-is-the-sexiest-wetsuit-on-the-market-feral",
       "videoURL": "https://www.youtube.com/embed/1FyzoFsqGg4?autoplay=1",
       "specialAlignment": true,
       "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/RECOMMENDS_FERAL.JPG?alt=media&token=675d78ca-2572-45bc-861c-a37fef2137ff",
@@ -116,17 +130,17 @@
     },
     "3": {
       "title": "Billabong",
-      "featureURL": "https://www.stabmag.com",
+      "featureURL": "https://stabmag.com/style/heres-the-wetsuit-for-those-who-love-a-bargain",
       "videoURL": "https://www.youtube.com/embed/51w1X2Bn59U?autoplay=1",
       "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/DSCF6475.jpg?alt=media&token=7f328763-cb5f-450a-af77-67f911f8a11a",
       "paragraphs": [
         "The kind folks from Billabong delivered three suits to Stab HQ for our wetsuit test: One Furnace Carbon Ultra 3/2mm, a Furnace Revolution 4/3mm that runs just over $200 and the most expensive suit from their collection, the Furnace Carbon Ultra Chestzip 4/3mm ($410USD).",
-        "The one thing we dug about the Billabong suits, is their price point is low. Their budget suit, the Billabong Furnace Revolution runs $209USD. Upon first run, the wetsuit was, admittedly, a little scratchy. However, once you break the suit in, it loosens up. For a 4/3 costing just $210USD, the Furnace Revolution, is a fine suit for any penny pincher."
+        "The one thing we dug about the Billabong suits, is their price point is low. Their budget suit, the Billabong Furnace Revolution runs $209USD. Upon first run, the wetsuit was, admittedly, a little scratchy. However, once you break the suit in, it loosens up. For a 4/3 costing just under $210USD, the Furnace Revolution, is a fine suit for any penny pincher. "
       ]
     },
     "4": {
       "title": "Quiksilver",
-      "featureURL": "https://www.stabmag.com",
+      "featureURL": "https://stabmag.com/style/for-when-flex-and-warmth-is-of-the-essence-quiksilver",
       "videoURL": "https://www.youtube.com/embed/rBxUZfN0drI?autoplay=1",
       "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/C42I8472.jpg?alt=media&token=5470ef28-692b-46a1-b349-3b7899978dc9",
       "paragraphs": [
@@ -138,20 +152,20 @@
     },
     "5": {
       "title": "Xcel",
-      "featureURL": "https://www.stabmag.com",
+      "featureURL": "https://stabmag.com/style/xcel-produces-the-most-consistent-quality-wetsuit-on-the-market",
       "videoURL": "https://www.youtube.com/embed/ICeLIVKWDaQ?autoplay=1",
       "specialAlignment": true,
       "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/RECOMMENDS_EXCEL.JPG?alt=media&token=b6694660-95e8-4afe-be8d-b2e122fed557",
       "paragraphs": [
         "We applaud Xcel for being the most consistently high-quality suit on the market.",
-        "For our test, Xcel sent us three pieces of rubber to sample. And, after our wetsuiteers, being Noah Wegrich, Blair Conklin and Jesse Gugliemana, gave each one a run, we came to the conclusion, that Xcel is, in fact, a damn fine purveyor of comfort, flex and warmth.",
+        "For our test, Xcel sent us three pieces of rubber to sample. And, after our wetsuiteers, being Noah Wegrich, Blair Conklin and Jesse Guglielmana, gave each one a run, we came to the conclusion, that Xcel is, in fact, a damn fine purveyor of comfort, flex and warmth.",
         "Here we highlight the Comp X $365USD, The Drylock X 3/2 $485USD, and And, the Drylock X 4/3 $500USD. The Comp X, won the SIMA award in 2017 for the best suit of the year, and in “You’ve Got Winter” won over our field tester’s hearts. Although the Comp X didn’t take gold in comfort and stretch, it did come in second, with Noah “Waggy” Wegrich giving it his first pick. The Comp X also came in second in the good looks department.",
         "Xcel’s crème de la crème suits, the Drylock Xs will run you near $500USD, they’re near watertight, cozy and well worth the expense."
       ]
     },
     "6": {
       "title": "Rip Curl",
-      "featureURL": "https://www.stabmag.com",
+      "featureURL": "https://stabmag.com/style/heres-why-rip-curl-won-two-of-six-divisions-in-our-wetsuit-test ",
       "videoURL": "https://www.youtube.com/embed/dBcIQh3qiNA?autoplay=1",
       "specialAlignment": true,
       "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/RECOMMENDS_RIP.jpg?alt=media&token=8dbe7762-d1db-47db-908d-434c9f50d6ab",
@@ -164,7 +178,7 @@
     },
     "7": {
       "title": "Hurley",
-      "featureURL": "https://www.stabmag.com",
+      "featureURL": "https://stabmag.com/style/the-most-surprising-and-high-quality-piece-of-rubber-in-our-wetsuit-test-hurley",
       "videoURL": "https://www.youtube.com/embed/E_LhWQz9kQc?autoplay=1",
       "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/C42I8729.JPG?alt=media&token=fd464f90-fa8b-4fc9-8541-9f29e289a41b",
       "paragraphs": [
@@ -175,21 +189,20 @@
     },
     "8": {
       "title": "7till8",
-      "featureURL": "https://www.stabmag.com",
+      "featureURL": "https://stabmag.com/style/if-you-have-the-means-7till8-makes-the-best-luxury-suit-of-2018",
       "videoURL": "https://www.youtube.com/embed/y8K4J7m4Nkw?autoplay=1",
       "specialAlignment": true,
       "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/RECOMMENDS_7TILL.jpg?alt=media&token=9735e26b-c1c1-4b54-811d-ed387f7e0423",
       "paragraphs": [
         "Here’s another neoprene specialist that likely sits outside your radar. The Los Angeles custom wetsuit manufacturer, 7till8, took the highest reward in our Champagne and Caviar category (the finest wetsuit for over $450USD).",
         "7till8 sent us a 4/3mm which costs the same as their 3/2mm, 3mm, 5/4/3mm, etc: $580USD.",
-        "All of 7till8’s wetsuits are made from Yamamoto Japanese Neoprene, and every suit they make is a custom order. It’s this extra care that gave 7till8 the nods for the best Luxury suit from Blair Conklin, Noah Wegrich, Jesse Gugliemana and our senior editor, Morgan Williamson."
+        "All of 7till8’s wetsuits are made from Yamamoto Japanese Neoprene, and every suit they make is a custom order. It’s this extra care that gave 7till8 the nods for the best Luxury suit from Blair Conklin, Noah Wegrich, Jesse Guglielmana and our senior editor, Morgan Williamson."
       ]
     },
     "9": {
       "title": "Volcom",
-      "featureURL": "https://www.stabmag.com",
+      "featureURL": "https://stabmag.com/style/if-youve-always-dreamt-of-wearing-a-volcom-suit/ ",
       "videoURL": "https://www.youtube.com/embed/Tcv7QNa1bkk?autoplay=1",
-      "specialAlignment": true,
       "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/C42I9843.JPG?alt=media&token=4bdd76fa-ea01-433e-a2b9-cf926f809fca",
       "paragraphs": [
         "The Stone has entered the wetsuit game with diamonds blazing. They’ve teamed up with Feral to produce their first wetsuit available to the every-person called the Deadly Stone. It’s a 3/2mm. It’s a backzip. It’s made from Yamamoto Neoprene.",

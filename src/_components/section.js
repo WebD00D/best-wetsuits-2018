@@ -272,6 +272,7 @@ const PlayButton = styled('img')`
 `;
 
 const FlexWrap = styled('div')`
+  min-height: 420px;
   display: flex;
   flex-direction: ${props => props.dir};
 
@@ -299,14 +300,21 @@ class Section extends Component {
   j;
 
   render() {
-    console.log('this.props.data', this.props);
-
     const paragraphs =
       this.props.data.paragraphs &&
       Object.keys(this.props.data.paragraphs).map(key => {
         const paragraph = this.props.data.paragraphs[key];
-        return <p>{paragraph}</p>;
+        return <p key={`paragraph-${key}`}>{paragraph}</p>;
       });
+
+    const wetsuits =
+      this.props.data.wetsuits &&
+      Object.keys(this.props.data.wetsuits).map(key => {
+        console.log(this.props.data.wetsuits[key]);
+        return <li key={`option-${key}`}>{this.props.data.wetsuits[key]}</li>;
+      });
+
+    console.log('WESUITS', wetsuits);
 
     return (
       <Container>
@@ -340,6 +348,8 @@ class Section extends Component {
               <div>
                 <div className="section-summary">
                   {paragraphs}
+                  <ul>{wetsuits}</ul>
+
                   {this.props.type === 'brand' ? (
                     <a
                       target="_blank"
