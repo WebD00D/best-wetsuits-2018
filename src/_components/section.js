@@ -17,6 +17,8 @@ import Close from '../_assets/icons/closeme.svg';
 
 import Play from '../_assets/icons/play.png';
 
+import StabRecommends from '../_assets/images/SRBlack.png';
+
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
@@ -94,8 +96,7 @@ const Video = styled('div')`
 
   background-image: url(${props => props.bg});
   background-size: cover;
-  background-position: ${props =>
-    props.specialAlignment ? 'right' : 'center'};
+  background-position: center;
   background-repeat: no-repeat;
   transition: 0.8s ease;
 `;
@@ -279,6 +280,13 @@ const FlexWrap = styled('div')`
   }
 `;
 
+const StabRecommendsLogo = styled('img')`
+  position: absolute;
+  height: 38px;
+  top: 30px;
+  right: 30px;
+`;
+
 class Section extends Component {
   constructor(props) {
     super(props);
@@ -304,16 +312,17 @@ class Section extends Component {
       <Container>
         <FlexWrap dir={this.props.dir}>
           <VideoPreview>
-            <Video
-              specialAlignment={this.props.data.specialAlignment}
-              className="video-preview"
-              bg={this.props.data.thumbnail}
-            >
+            <Video className="video-preview" bg={this.props.data.thumbnail}>
               <PlayButton
                 onClick={() => this.props.showVideo(this.props.data.videoURL)}
                 src={Play}
               />
             </Video>
+            {this.props.data.specialAlignment ? (
+              <StabRecommendsLogo src={StabRecommends} />
+            ) : (
+              ''
+            )}
           </VideoPreview>
           <ContentWrapper>
             <CategoryBar>
