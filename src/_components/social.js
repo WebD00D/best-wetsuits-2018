@@ -17,7 +17,7 @@ const SocialWrap = styled('div')`
   position: absolute;
   left: 30px;
   bottom: 170px;
-  z-index: 1;
+  z-index: 2;
 
   @media (max-width: 992px) {
     left: 15px;
