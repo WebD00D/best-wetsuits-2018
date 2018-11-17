@@ -311,10 +311,8 @@ class Section extends Component {
       this.props.data.wetsuits &&
       Object.keys(this.props.data.wetsuits).map(key => {
         console.log(this.props.data.wetsuits[key]);
-        return <li key={`option-${key}`}>{this.props.data.wetsuits[key]}</li>;
+        return <li key={`option-${key}`}><a style={{color: "#ccc"}} target="_blank" href={this.props.data.wetsuits[key].link}>{this.props.data.wetsuits[key].name}</a></li>;
       });
-
-    console.log('WESUITS', wetsuits);
 
     return (
       <Container>
