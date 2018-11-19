@@ -42,12 +42,16 @@
     "1": {
       "title": "the comfort stretch award four/three",
       "featureURL": "https://www.stabmag.com",
-      "videoURL": "https://www.youtube.com/embed/cW_yAcaRMl4?autoplay=1",
+      "videoURL": "https://www.youtube.com/embed/0L3W1QILFWk?autoplay=1",
       "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/LIFESTYLE2.JPG?alt=media&token=55e7e901-5926-4435-94a0-002b02f1bdb8",
       "paragraphs": [
         "The wetsuit for those who like their yoga in silk pants is the O’Neill Hyperfreak Comp. The Wetsuits entered into the Stretchiest and Comfiest 4/3mm category were:"
       ],
       "wetsuits": [
+        {
+          "name": "O’Neill Hyperfreak Comp: $299USD",
+          "link": "https://stabmag.com/style/one-brand-produces-the-all-around-most-comfortable-and-stretchiest-suits-of-2018-oneill"
+        },
         {
           "name": "Vissla North Seas: $299USD",
           "link": "https://stabmag.com/style/do-you-like-wetsuits-that-wont-hammer-your-piggiebank-vissla"
@@ -108,7 +112,7 @@
     "3": {
       "title": "the budget warrior (under $300)",
       "featureURL": "https://www.stabmag.com",
-      "videoURL": "https://www.youtube.com/embed/FKLaHYkW_1I?autoplay=1",
+      "videoURL": "https://www.youtube.com/embed/PjOzrQNmv0E?autoplay=1",
       "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/LIFESTYLE5.JPG?alt=media&token=c6739555-f8ef-43b9-b4e5-719ba1b62b0e",
       "paragraphs": [
         "The finest wetsuit for the frugal is the O’Neill Hyperfreak Comp"
@@ -127,12 +131,11 @@
           "link": "https://stabmag.com/style/do-you-like-wetsuits-that-wont-hammer-your-piggiebank-vissla"
         },
         {
-          "name": "O’Neill Hyperfreak II: $299USD",
+          "name": "O’Neill Hyperfreak Comp: $299USD",
           "link": "https://stabmag.com/style/one-brand-produces-the-all-around-most-comfortable-and-stretchiest-suits-of-2018-oneill"
         }
       ]
     },
-
     "4": {
       "title": "the fastest drying",
       "featureURL": "https://www.stabmag.com",

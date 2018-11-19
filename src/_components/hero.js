@@ -354,7 +354,7 @@ class Hero extends Component {
               <Play
                 onClick={() =>
                   this.props.showVideo(
-                    'https://www.youtube.com/embed/GF6juN0tFXc?autoplay=1'
+                    'https://www.youtube.com/embed/eqbfJuXa4w0?autoplay=1'
                   )
                 }
                 src={PlayButton}
