@@ -28,7 +28,7 @@ const CategoryBar = styled('div')`
   justify-content: center;
   border-bottom: 1px solid #111;
   width: 100%;
-  height: 60px;
+  height: 20px;
   background-image: repeating-linear-gradient(
     120deg,
     #111,
@@ -50,6 +50,8 @@ const Number = styled('div')`
   font-size: 10px;
   letter-spacing: 4px;
   color: #ccc;
+
+  display:none;
 
   .number {
     width: 50px;
