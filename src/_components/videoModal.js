@@ -67,4 +67,3 @@ export default class VideoModal extends Component {
 }
 
 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
