@@ -54,7 +54,6 @@ export default class VideoModal extends Component {
       <Wrap>
         <Close onClick={() => this.props.closeModal()} src={CloseIcon} />
         <IframeContainer>
-    
           <IFrame
             src={this.props.video}
             frameBorder="0"
@@ -66,3 +65,6 @@ export default class VideoModal extends Component {
     );
   }
 }
+
+
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
