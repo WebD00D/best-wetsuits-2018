@@ -64,7 +64,7 @@ class FullscreenVideo extends Component {
         <Play
           onClick={() =>
             this.props.showVideo(
-              'https://www.youtube.com/embed/eqbfJuXa4w0?autoplay=1'
+              'https://www.youtube.com/embed/z5RatZy35hM?autoplay=1'
             )
           }
           src={PlayButton}
