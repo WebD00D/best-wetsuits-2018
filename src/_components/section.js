@@ -317,7 +317,7 @@ class Section extends Component {
       });
 
     return (
-      <Container>
+      <Container id={this.props.data.slug}>
         <FlexWrap dir={this.props.dir}>
           <VideoPreview>
             <Video className="video-preview" bg={this.props.data.thumbnail}>
