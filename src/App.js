@@ -114,11 +114,9 @@ class App extends Component {
 
     const brands = Object.keys(data['brands']).map(key => {
       let number = Number(key) + 1;
-
       if (number < 10) {
         number = `0${number}`;
       }
-
       return (
         <Section
           key={key}
