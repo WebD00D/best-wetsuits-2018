@@ -133,21 +133,12 @@ class App extends Component {
 
     return (
       <div>
-        {this.renderVideoPopup()}
         <Hero showVideo={video => this.showVideo(video)} />
-
         <Title>Meet the brands</Title>
         {brands}
-
-        <Title>Watch Full Video</Title>
-        <FullscreenVideo showVideo={video => this.showVideo(video)} />
-
-        <Title>Categories</Title>
-        {categories}
-
         <Footer>
           <StabLogo src={Logo} />
-          <Caption>BEST WETSUITS 2018</Caption>
+          <Caption>BEST BOARDSHORTS 2019</Caption>
         </Footer>
       </div>
     );

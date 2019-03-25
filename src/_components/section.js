@@ -321,10 +321,10 @@ class Section extends Component {
         <FlexWrap dir={this.props.dir}>
           <VideoPreview>
             <Video className="video-preview" bg={this.props.data.thumbnail}>
-              <PlayButton
+              {/* <PlayButton
                 onClick={() => this.props.showVideo(this.props.data.videoURL)}
                 src={Play}
-              />
+              /> */}
             </Video>
             {this.props.data.specialAlignment ? (
               <StabRecommendsLogo src={StabRecommends} />

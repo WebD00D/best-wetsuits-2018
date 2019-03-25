@@ -68,7 +68,7 @@ class Social extends Component {
           <img src={Facebook} />
         </SocialLink>
         <StabMagText target="_blank" href="https://www.stabmag.com">
-          BEST WETSUITS 2018
+          BEST BOARDIES 2019
         </StabMagText>
       </SocialWrap>
     );

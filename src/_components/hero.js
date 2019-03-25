@@ -19,7 +19,7 @@ const HeroWrap = styled('div')`
   border-bottom: 1px solid #111;
 
   @media (max-width: 992px) {
-    height: 600px;
+    height: 400px;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
@@ -52,9 +52,9 @@ const RightPanel = styled('div')`
   flex: 2;
   background-color: ${theme.colors.black};
   background-repeat: no-repeat;
-  background: url(${HeroCover});
+  background: url('https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/best-boardies-2019%2Fz.bush-9759%20(1).jpg?alt=media&token=37787649-c313-4e15-9c95-b0847116872c');
   background-size: cover;
-  background-position: left;
+  background-position: center;
 `;
 
 const Filter = styled('div')`
@@ -212,6 +212,7 @@ const HeadlineWrap = styled('div')`
     padding-top: 80px;
     margin-left: auto;
     margin-right: auto;
+    z-index: 6;
   }
 `;
 
@@ -241,8 +242,6 @@ const Headline = styled('div')`
     line-height: 50px;
     text-align: left;
   }
-
-
 `;
 
 const Byline = styled('div')`
@@ -265,8 +264,6 @@ const Byline = styled('div')`
     line-height: 22px;
     margin-top: 0px;
   }
-
-  
 `;
 
 const HeroCaption = styled('div')`
@@ -326,8 +323,8 @@ class Hero extends Component {
       <HeroWrap>
         <HeadlineWrap>
           <Headline>
-            Stab’s comprehensive field test and guide to the year’s best
-            wetsuits
+            Stab’s comprehensive guide to the year’s most superior boardshorts
+            of 2019
           </Headline>
         </HeadlineWrap>
         <LeftPanel>
@@ -335,13 +332,10 @@ class Hero extends Component {
           <StabLogo src={Logo} />
           <Social />
           <HeroCaption>
-            “You’ve Got Winter” is the result of four grown men, Noah Wegrich,
-            Blair Conklin, Jesse Guglielmana and Stab Senior Ed. Morgan
-            Williamson, sampling upwards of 70 total wetsuits while frolicking
-            in the ocean for five days. We enlisted ten of the world’s finest
-            neoprene manufacturers, a 15 passenger van and a helluva lot of
-            miles up and down the California coast. If you’re in the market for
-            a new wetsuit for the 2018/2019 winter season, consult this first.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
           </HeroCaption>
         </LeftPanel>
         <RightPanel>
@@ -349,26 +343,15 @@ class Hero extends Component {
             VISIT STABMAG.COM
           </NavButton>
           <BottomBar>
-            <VideoThumbnail>
-              <Filter lighter />
-              <Play
-                onClick={() =>
-                  this.props.showVideo(
-                    'https://www.youtube.com/embed/z5RatZy35hM?autoplay=1'
-                  )
-                }
-                src={PlayButton}
-              />
-            </VideoThumbnail>
             <div className="mobile-arrow">
               <ArrowDown src={Arrow} />
             </div>
             <div className="text">
-              OCEAN BEACH, SAN FRANCISCO, CA
+              BEST BOARDSHORTS OF 2019
               <ArrowDown src={Arrow} />
             </div>
           </BottomBar>
-          <Filter />
+          <Filter lighter />
         </RightPanel>
       </HeroWrap>
     );
