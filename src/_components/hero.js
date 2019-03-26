@@ -200,7 +200,7 @@ const ArrowDown = styled('img')`
 const HeadlineWrap = styled('div')`
   display: flex;
   justify-content: flex-start;
-  padding-top: 175px;
+  padding-top: 100px;
   flex-direction: column;
   align-items: flex-start;
   position: absolute;
@@ -209,7 +209,7 @@ const HeadlineWrap = styled('div')`
   height: 100%;
 
   @media (max-width: 992px) {
-    padding-top: 80px;
+    padding-top: 108px;
     margin-left: auto;
     margin-right: auto;
     z-index: 6;
@@ -220,18 +220,21 @@ const Headline = styled('div')`
   font-family: Circular;
   font-style: normal;
   line-height: 85px;
-  font-size: 70px;
+  font-size: 60px;
   letter-spacing: 1px;
   color: ${theme.colors.white};
   max-width: 1100px;
   padding-left: 150px;
   text-align: left;
 
+
+
   @media (max-width: 992px) {
+
     max-width: 100%;
     padding-left: 50px;
     padding-right: 30px;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 80px;
     text-align: justify;
     margin-bottom: 12px;
@@ -280,6 +283,7 @@ const HeroCaption = styled('div')`
   color: ${theme.colors.grey};
 
   @media (max-width: 992px) {
+    display: none;
     z-index: 6;
     width: 400px;
     left: 65px;
@@ -287,6 +291,7 @@ const HeroCaption = styled('div')`
   }
 
   @media (max-width: 892px) {
+    display: none;
     width: 600px;
     bottom: 230px;
     font-size: 14px;
@@ -323,8 +328,7 @@ class Hero extends Component {
       <HeroWrap>
         <HeadlineWrap>
           <Headline>
-            Stab’s guide to the year’s most superior surf shorts
-            of 2019
+            Stab’s Guide To The Year’s Most Superior Surf Trunks
           </Headline>
         </HeadlineWrap>
         <LeftPanel>
@@ -332,10 +336,16 @@ class Hero extends Component {
           <StabLogo src={Logo} />
           <Social />
           <HeroCaption>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            The foundation of surfing is the trunk. It’s what keeps the
+            industry’s lights on. And a good pair of surf shorts allows you to
+            surf longer and look slick while doing it. In an era where there’s a
+            design for everyone–22-inch outseam to 16-inch thigh-glow, floral
+            pop to black and understated–for our annual board short guide we
+            enlisted 10 of surfing’s most prominent brands. We stole their team
+            riders, stuck them in their boardshort sponsor's ’19 line, and
+            bounced them on trampoline tucked away in a notable corner of Oahu’s
+            North Shore. This one’s for our friends residing on the Northern
+            Hemi or anyone hopping a plane to somewhere tropical.
           </HeroCaption>
         </LeftPanel>
         <RightPanel>
