@@ -13,7 +13,7 @@ import PlayButton from '../_assets/icons/play.png';
 import Arrow from '../_assets/icons/arrow.svg';
 
 const HeroWrap = styled('div')`
-  height: 720px;
+  height: 600px;
   display: flex;
   position: relative;
   border-bottom: 1px solid #111;
@@ -323,7 +323,7 @@ class Hero extends Component {
       <HeroWrap>
         <HeadlineWrap>
           <Headline>
-            Stab’s comprehensive guide to the year’s most superior boardshorts
+            Stab’s guide to the year’s most superior surf shorts
             of 2019
           </Headline>
         </HeadlineWrap>
