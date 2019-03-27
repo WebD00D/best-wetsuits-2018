@@ -349,7 +349,6 @@ class Section extends Component {
                 <div className="section-summary">
                   {paragraphs}
                   <ul>{wetsuits}</ul>
-
                   {this.props.type === 'brand' ? (
                     <a
                       target="_blank"

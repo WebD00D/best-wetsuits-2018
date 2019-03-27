@@ -170,44 +170,8 @@
     }
   },
   "brands": {
+
     "0": {
-      "title": "O'Neill",
-      "slug": "oneill",
-      "featureURL": "https://stabmag.com/style/superior-surf-short-oneill",
-      "videoURL": "https://www.youtube.com/embed/E0Y7axRQdZY?autoplay=1",
-      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/best-boardies-gifs%2FONeillGif.gif?alt=media&token=5202c35a-adbf-451a-8219-63bc9bcf0534",
-      "paragraphs": [
-        "For the surfer who: knows how to change a tyre.",
-        "O’Neill pride themselves on creating no frills (but certainly not no tech) surfing equipment. Boasting as rich a heritage of any the hyped ‘surf’ brands, O’Neill’s the quiet achiever of the surfing world; solid team, solid history, solid gear. Their most recent line of trunks has something for all, with some louder, more overtly hi-fi trunks for the hi-fi guy, and some neat, well-cut staple trunks, for those who like to slide by unnoticed in the surf."
-      ]
-    },
-    "1": {
-      "title": "Rip Curl",
-      "slug": "ripcurl",
-      "featureURL": "https://stabmag.com/style/superior-surf-shorts-rip-curl",
-      "videoURL": "https://www.youtube.com/embed/rBxUZfN0drI?autoplay=1",
-      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/best-boardies-gifs%2FRipGif.gif?alt=media&token=6fabf4d7-4875-47c3-924f-fcaa205fa872",
-      "paragraphs": [
-        "For the surfer who: believes in performance matters",
-        "One of the longest running (and still privately owned) surf co’s, continues to operate out of their spiritual home in Torquay, Australia. Rip Curl’s constructed their nest around the core principle of having fun. Think about it: The Search, Mase, Micktory 2.0. Fun! Their summer ’19 trunks are fun too, with a little more colour than you see around the rest of the park, and all the tech to go along with it."
-      ]
-    },
-
-    "2": {
-      "title": "Vissla",
-      "slug": "vissla",
-      "featureURL": "https://stabmag.com/style/superior-surf-shorts-vissla",
-      "videoURL": "https://www.youtube.com/embed/y8K4J7m4Nkw?autoplay=1",
-      "specialAlignment": false,
-      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/best-boardies-gifs%2FVisslaGif.gif?alt=media&token=2453c601-fbb7-4e25-a319-aada08dc470d",
-      "paragraphs": [
-        "For the surfer who: doesn’t mind trying new things.",
-        "Vissla came on the scene and made all the right moves. They sponsored those who deserved it, flooded the coastlines with affordable, quality suits, and now they’re funding projects and artists alike. Can’t fault that. Their trunks sit somewhere between performance and the shorter regions, but they’re consistently solid.",
-        "Vissla's ’19 release features a quilted Thomas Campbell print of which we’re particularly fond."
-      ]
-    },
-
-    "3": {
       "title": "Banks Journal",
       "slug": "banks",
       "featureURL": "https://stabmag.com/style/superior-surf-shorts-banks",
@@ -219,22 +183,19 @@
         "Since their inception, Banks has worked tirelessly to cement themselves as the go-to brand for the fashion-conscious surfer. Their trunks, in particular—although if you went through the archives they haven’t come out with much you’d call ‘on the nose’—have been faultless in print and cut since they first started production. The latest release is no different, with a mixture of 60s style staple designs, and few fruitier prints for those who like to stand out in the surf."
       ]
     },
-
-    "4": {
-      "title": "Volcom",
-      "slug": "volcom",
-      "featureURL": "https://stabmag.com/style/superior-surf-shorts-volcom",
-      "videoURL": "https://www.youtube.com/embed/Tcv7QNa1bkk?autoplay=1",
-      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/best-boardies-gifs%2FVolcomGif.gif?alt=media&token=a69d7f23-ba51-4ad4-9799-ae239a1027c3",
+    "1": {
+      "title": "O'Neill",
+      "slug": "oneill",
+      "featureURL": "https://stabmag.com/style/superior-surf-short-oneill",
+      "videoURL": "https://www.youtube.com/embed/E0Y7axRQdZY?autoplay=1",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/best-boardies-gifs%2FONeillGif.gif?alt=media&token=5202c35a-adbf-451a-8219-63bc9bcf0534",
       "paragraphs": [
-        "For the surfer who: likes to let it all hang out.",
-        "The Volcom guy's that guy hanging out in the corner at the party. He’s not worried about who’s who, what’s what, he’s just drinking beer and he’s happy.",
-        "Volcom’s got a team that ranges from Burch to Kaimana Henry, and their trunks meet somewhere in the middle. There’s prints in here, a wacky pair by Oscar Wrong, and a pair with a nice solid logo on them.",
-        "It’s nice to see a surf co with a logo who’s not afraid to use it in 2019."
+        "For the surfer who: knows how to change a tyre.",
+        "O’Neill pride themselves on creating no frills (but certainly not no tech) surfing equipment. Boasting as rich a heritage of any the hyped ‘surf’ brands, O’Neill’s the quiet achiever of the surfing world; solid team, solid history, solid gear. Their most recent line of trunks has something for all, with some louder, more overtly hi-fi trunks for the hi-fi guy, and some neat, well-cut staple trunks, for those who like to slide by unnoticed in the surf."
       ]
     },
 
-    "5": {
+    "2": {
       "title": "Outerknown",
       "slug": "outerknown",
       "featureURL": "https://stabmag.com/style/superior-surf-shorts-outerknown",
@@ -243,10 +204,48 @@
       "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/best-boardies-gifs%2FOK.gif?alt=media&token=a4ba8503-333c-479e-bac5-c7ccc2aab22d",
       "paragraphs": [
         "For the surfer who: is eco-conscious and loves high performance",
-        "Some people like nice things, and like to know they were made in the most ethical way possible. These are also the kinds of people who like having things others do not, and it is for these folk that Outerknown exists. High end, premium eco goods with subtle cuts, styles and branding.",
+        "Some people like nice things, and like to know they were made in the most ethical way possible and it is for these folk that Outerknown exists. High end, premium eco goods with subtle cuts, styles and branding.",
         "When buying OK you know what you’re getting, and you know it’s going to be good."
       ]
     },
+
+    "3": {
+      "title": "Quiksilver",
+      "slug": "quicksilver",
+      "featureURL": "https://stabmag.com/style/superior-surf-shorts-quiksilver",
+      "videoURL": "https://www.youtube.com/embed/s6VNTFc_4FQ?autoplay=1",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/best-boardies-gifs%2FQuickGif.gif?alt=media&token=41e2f7f9-713a-43b9-b266-95e1871f4a7d",
+      "paragraphs": [
+        "For the surfer who: remembers the glory days.",
+        "The shining bastion of what we could’ve been, Quik doesn’t forget the lofty heights, and nor should they. In homage to a hell of a history, Quik’s latest release pays respects to some of the iconic designs and logos that have come before: stylish staples, and the return of the star trunks… only this time in cherry red."
+      ]
+    },
+
+    "4": {
+      "title": "Rip Curl",
+      "slug": "ripcurl",
+      "featureURL": "https://stabmag.com/style/superior-surf-shorts-rip-curl",
+      "videoURL": "https://www.youtube.com/embed/rBxUZfN0drI?autoplay=1",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/best-boardies-gifs%2FRipGif.gif?alt=media&token=6fabf4d7-4875-47c3-924f-fcaa205fa872",
+      "paragraphs": [
+        "For the surfer who: believes in performance matters",
+        "One of the longest running (and still privately owned) surf co’s, continues to operate out of their spiritual home in Torquay, Australia. Rip Curl’s constructed their nest around the core principle of having fun. Think about it: The Search, Mase, Micktory 2.0. Fun! Their summer ’19 trunks are fun too, with a little more colour than you see around the rest of the park, and all the tech to go along with it."
+      ]
+    },
+
+    "5": {
+      "title": "Roark",
+      "slug": "roark",
+      "featureURL": "https://stabmag.com/style/superior-surf-shorts-roark-2",
+      "videoURL": "https://www.youtube.com/embed/ICeLIVKWDaQ?autoplay=1",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/best-boardies-gifs%2FRoarkGif.gif?alt=media&token=b4bdccdd-36bb-4fc7-b8dc-33ccd6d6250b",
+      "paragraphs": [
+        "For the surfer who: can read a (non-google) map.",
+        "A relative newcomer to the surf rag trade, Roark’s guiding light is packing it up and hitting the road. And hey, we like to peramble as much as the next guy. Roark’s trunks are road tested and rugged, shorts fit to last and perform every session of a long trip. ",
+        "No frills necessary, but no details neglected, either."
+      ]
+    },
+
     "6": {
       "title": "RVCA",
       "slug": "rvca",
@@ -273,26 +272,29 @@
       ]
     },
     "8": {
-      "title": "Roark",
-      "slug": "roark",
-      "featureURL": "https://stabmag.com/style/superior-surf-shorts-roark-2",
-      "videoURL": "https://www.youtube.com/embed/ICeLIVKWDaQ?autoplay=1",
-      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/best-boardies-gifs%2FRoarkGif.gif?alt=media&token=b4bdccdd-36bb-4fc7-b8dc-33ccd6d6250b",
+      "title": "Vissla",
+      "slug": "vissla",
+      "featureURL": "https://stabmag.com/style/superior-surf-shorts-vissla",
+      "videoURL": "https://www.youtube.com/embed/y8K4J7m4Nkw?autoplay=1",
+      "specialAlignment": false,
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/best-boardies-gifs%2FVisslaGif.gif?alt=media&token=2453c601-fbb7-4e25-a319-aada08dc470d",
       "paragraphs": [
-        "For the surfer who: can read a (non-google) map.",
-        "A relative newcomer to the surf rag trade, Roark’s guiding light is packing it up and hitting the road. And hey, we like to peramble as much as the next guy. Roark’s trunks are road tested and rugged, shorts fit to last and perform every session of a long trip. ",
-        "No frills necessary, but no details neglected, either."
+        "For the surfer who: doesn’t mind trying new things.",
+        "Vissla came on the scene and made all the right moves. They sponsored those who deserved it, flooded the coastlines with affordable, quality suits, and now they’re funding projects and artists alike. Can’t fault that. Their trunks sit somewhere between performance and the shorter regions, but they’re consistently solid.",
+        "Vissla's ’19 release features a quilted Thomas Campbell print of which we’re particularly fond."
       ]
     },
     "9": {
-      "title": "Quiksilver",
-      "slug": "quicksilver",
-      "featureURL": "https://stabmag.com/style/superior-surf-shorts-quiksilver",
-      "videoURL": "https://www.youtube.com/embed/s6VNTFc_4FQ?autoplay=1",
-      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/best-boardies-gifs%2FQuickGif.gif?alt=media&token=41e2f7f9-713a-43b9-b266-95e1871f4a7d",
+      "title": "Volcom",
+      "slug": "volcom",
+      "featureURL": "https://stabmag.com/style/superior-surf-shorts-volcom",
+      "videoURL": "https://www.youtube.com/embed/Tcv7QNa1bkk?autoplay=1",
+      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/best-boardies-gifs%2FVolcomGif.gif?alt=media&token=a69d7f23-ba51-4ad4-9799-ae239a1027c3",
       "paragraphs": [
-        "For the surfer who: remembers the glory days.",
-        "The shining bastion of what we could’ve been, Quik doesn’t forget the lofty heights, and nor should they. In homage to a hell of a history, Quik’s latest release pays respects to some of the iconic designs and logos that have come before: stylish staples, and the return of the star trunks… only this time in cherry red."
+        "For the surfer who: likes to let it all hang out.",
+        "The Volcom guy's that guy hanging out in the corner at the party. He’s not worried about who’s who, what’s what, he’s just drinking beer and he’s happy.",
+        "Volcom’s got a team that ranges from Burch to Kaimana Henry, and their trunks meet somewhere in the middle. There’s prints in here, a wacky pair by Oscar Wrong, and a pair with a nice solid logo on them.",
+        "It’s nice to see a surf co with a logo who’s not afraid to use it in 2019."
       ]
     }
   }
