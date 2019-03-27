@@ -227,10 +227,7 @@ const Headline = styled('div')`
   padding-left: 150px;
   text-align: left;
 
-
-
   @media (max-width: 992px) {
-
     max-width: 100%;
     padding-left: 50px;
     padding-right: 30px;
@@ -337,15 +334,16 @@ class Hero extends Component {
           <Social />
           <HeroCaption>
             The foundation of surfing is the trunk. It’s what keeps the
-            industry’s lights on. And a good pair of surf shorts allows you to
-            surf longer and look slick while doing it. In an era where there’s a
+            industry’s lights on. A good pair of surf shorts allows you to surf
+            longer and look slick while doing it. In an era where there’s a
             design for everyone–22-inch outseam to 16-inch thigh-glow, floral
             pop to black and understated–for our annual board short guide we
-            enlisted 10 of surfing’s most prominent brands. We stole their team
-            riders, stuck them in their boardshort sponsor's ’19 line, and
+            enlisted 10 of surfing’s most prominent purveyors. We stole their
+            team riders, stuck them in their boardshort sponsor's ’19 line, and
             bounced them on trampoline tucked away in a notable corner of Oahu’s
-            North Shore. This one’s for our friends residing on the Northern
-            Hemi or anyone hopping a plane to somewhere tropical.
+            North Shore. Here's a feature our friends residing north of the
+            equator or anyone hopping a plane to somewhere tropical. Come on,
+            let's levitate!
           </HeroCaption>
         </LeftPanel>
         <RightPanel>
