@@ -86,6 +86,7 @@ class App extends Component {
     if (this.state.video)
       return (
         <VideoModal
+          id="VIDEO"
           video={this.state.url}
           closeModal={() => this.hideVideo()}
         />
@@ -112,10 +113,7 @@ class App extends Component {
       );
     });
 
-    
-
-    
-
+  
     const brands = Object.keys(data['brands']).map(key => {
       let number = Number(key) + 1;
 
@@ -137,13 +135,16 @@ class App extends Component {
 
     return (
       <div>
-        <Hero showVideo={video => this.showVideo(video)} />
+        <Hero  />
+        <Title>WATCH THE NOTHERN HEMISPHERE EDITION</Title>
+        <FullscreenVideo showVideo={video => this.showVideo(video)} />
         <Title>Meet the brands</Title>
-        {brands}
+        {brands}      
         <Footer>
           <StabLogo src={Logo} />
           <Caption>BEST BOARDSHORTS 2019</Caption>
         </Footer>
+        {this.renderVideoPopup()}
       </div>
     );
   }

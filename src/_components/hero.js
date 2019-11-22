@@ -52,7 +52,7 @@ const RightPanel = styled('div')`
   flex: 2;
   background-color: ${theme.colors.black};
   background-repeat: no-repeat;
-  background: url('https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/best-boardies-2019%2Fz.bush-9759%20(1).jpg?alt=media&token=37787649-c313-4e15-9c95-b0847116872c');
+  background: url('https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/best-wetsuits-2019%2Fvolte%204_3.jpg?alt=media&token=5d03e385-a48c-498f-803d-a0b5a164264c');
   background-size: cover;
   background-position: center;
 `;
@@ -200,7 +200,7 @@ const ArrowDown = styled('img')`
 const HeadlineWrap = styled('div')`
   display: flex;
   justify-content: flex-start;
-  padding-top: 100px;
+  padding-top: 88px;
   flex-direction: column;
   align-items: flex-start;
   position: absolute;
@@ -325,7 +325,7 @@ class Hero extends Component {
       <HeroWrap>
         <HeadlineWrap>
           <Headline>
-            Stab’s Guide To The Year’s Most Superior Surf Trunks
+            Stab’s Guide To The Best Wetsuits of Winter '19/'20
           </Headline>
         </HeadlineWrap>
         <LeftPanel>
@@ -333,17 +333,20 @@ class Hero extends Component {
           <StabLogo src={Logo} />
           <Social />
           <HeroCaption>
-            The foundation of surfing is the trunk. It’s what keeps the
-            industry’s lights on. A good pair of surf shorts allows you to surf
-            longer and look slick while doing it. In an era where there’s a
-            design for everyone–22-inch outseam to 16-inch thigh-glow, floral
-            pop to black and understated–for our annual board short guide we
-            enlisted 10 of surfing’s most prominent purveyors. We stole their
-            team riders, stuck them in their boardshort sponsor's ’19 line, and
-            bounced them on trampoline tucked away in a notable corner of Oahu’s
-            North Shore. Here's a feature our friends residing north of the
-            equator or anyone hopping a plane to somewhere tropical. Come on,
-            let's levitate!
+            <p>
+             Nobody wants to wear a 4/3 if they don't have to, so
+            it's our job to keep you in a 3-mil as long as possible. But, if
+            that extra millimeter of rubber is required, we want to make sure
+            that you don't end up in a rubber straitjacket. The tester?  Stab's
+            resident tech geek, Michael Ciaramella. Having exclusively worn Xcel
+            neoprene for the past decade, Mike's utter ignorance of these six
+            neoprene brands makes him uniquely qualified for the task, as he is
+            a truly unbiased subject. Watch above as Mike samples 12 rubber
+            tuxedos both in and out of frigid Central California waters, in an
+            attempt to answer the question: who makes the warmest and most
+            comfortable wetsuits in 2019/2020?
+            </p>
+            
           </HeroCaption>
         </LeftPanel>
         <RightPanel>
