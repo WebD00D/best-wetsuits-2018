@@ -59,12 +59,12 @@ const Play = styled('img')`
 class FullscreenVideo extends Component {
   render() {
     return (
-      <Wrap thumb={Thumbnail}>
+      <Wrap thumb='https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/best-wetsuits-2019%2F9F0C0756.jpg?alt=media&token=c727dc16-ec88-4303-973d-9f4944c94407'>
         <Filter />
         <Play
           onClick={() =>
             this.props.showVideo(
-              'https://www.youtube.com/embed/z5RatZy35hM?autoplay=1'
+              'https://www.youtube.com/embed/YJjE4rbYqj0?autoplay=1'
             )
           }
           src={PlayButton}

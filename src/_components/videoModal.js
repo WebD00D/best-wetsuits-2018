@@ -13,6 +13,7 @@ const Wrap = styled('div')`
   height: 100%;
   background-color: ${theme.colors.filter};
   z-index: 10;
+  top: 0px;
 `;
 
 const Close = styled('img')`
@@ -51,7 +52,7 @@ const IFrame = styled('iframe')`
 export default class VideoModal extends Component {
   render() {
     return (
-      <Wrap>
+      <Wrap id="FS">
         <Close onClick={() => this.props.closeModal()} src={CloseIcon} />
         <IframeContainer>
           <IFrame
