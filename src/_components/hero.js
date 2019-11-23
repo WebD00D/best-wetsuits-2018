@@ -52,7 +52,7 @@ const RightPanel = styled('div')`
   flex: 2;
   background-color: ${theme.colors.black};
   background-repeat: no-repeat;
-  background: url('https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/best-wetsuits-2019%2Fvolte%204_3.jpg?alt=media&token=5d03e385-a48c-498f-803d-a0b5a164264c');
+  background: url('https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/best-wetsuits-2019%2F9F0C0702.jpg?alt=media&token=6975e33f-2c4b-45ad-8aa5-a96d8d591700');
   background-size: cover;
   background-position: center;
 `;
@@ -358,7 +358,7 @@ class Hero extends Component {
               <ArrowDown src={Arrow} />
             </div>
             <div className="text">
-              BEST BOARDSHORTS OF 2019
+              BEST WETSUITS OF 2019
               <ArrowDown src={Arrow} />
             </div>
           </BottomBar>
