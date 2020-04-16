@@ -1,18 +1,18 @@
-import React, { Component } from 'react';
-import styled from 'react-emotion';
+import React, { Component, useState } from "react";
+import styled from "react-emotion";
 
-import * as UI from '../_components/ui';
-import theme from '../theme.json';
+import * as UI from "../_components/ui";
+import theme from "../theme.json";
 
-import Social from '../_components/social';
+import Social from "../_components/social";
 
-import Logo from '../_assets/images/stab-logo-white.png';
-import HeroCover from '../_assets/images/sample/hero.JPG';
-import VideoThumb from '../_assets/images/sample/thum-cover-big.jpg';
-import PlayButton from '../_assets/icons/play.png';
-import Arrow from '../_assets/icons/arrow.svg';
+import Logo from "../_assets/images/stab-logo-white.png";
+import HeroCover from "../_assets/images/sample/hero.JPG";
+import VideoThumb from "../_assets/images/sample/thum-cover-big.jpg";
+import PlayButton from "../_assets/icons/play.png";
+import Arrow from "../_assets/icons/arrow.svg";
 
-const HeroWrap = styled('div')`
+const HeroWrap = styled("div")`
   height: 600px;
   display: flex;
   position: relative;
@@ -26,7 +26,7 @@ const HeroWrap = styled('div')`
   }
 `;
 
-const LeftPanel = styled('div')`
+const LeftPanel = styled("div")`
   position: relative;
   flex: 1;
   min-width: 600px;
@@ -46,41 +46,26 @@ const LeftPanel = styled('div')`
   }
 `;
 
-const RightPanel = styled('div')`
+const RightPanel = styled("div")`
   position: relative;
   height: 100%;
   flex: 2;
   background-color: ${theme.colors.black};
   background-repeat: no-repeat;
-  background: url('https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/best-wetsuits-2019%2F9F0C0702.jpg?alt=media&token=6975e33f-2c4b-45ad-8aa5-a96d8d591700');
+  background: url("https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/best-wetsuits-2019%2F9F0C0702.jpg?alt=media&token=6975e33f-2c4b-45ad-8aa5-a96d8d591700");
   background-size: cover;
   background-position: center;
 `;
 
-const Filter = styled('div')`
-  background-color: ${props =>
+const Filter = styled("div")`
+  background-color: ${(props) =>
     props.lighter ? theme.colors.filterLight : theme.colors.filter};
   height: 100%;
   width: 100%;
   position: absolute;
 `;
 
-const NavButton = styled(UI.NavButton)`
-  position: absolute;
-  right: 0;
-  z-index: 4;
-  border-bottom-left-radius: 2px;
-  background-color: #111;
-
-  @media (max-width: 892px) {
-    height: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
-    line-height: 40px;
-  }
-`;
-
-const StabLogo = styled('img')`
+const StabLogo = styled("img")`
   position: fixed;
   height: 30px;
   top: 30px;
@@ -94,7 +79,7 @@ const StabLogo = styled('img')`
   }
 `;
 
-const BottomBar = styled('div')`
+const BottomBar = styled("div")`
   height: 70px;
   background-color: ${theme.colors.lightBlack};
   border-top: 1px solid #111;
@@ -149,7 +134,7 @@ const BottomBar = styled('div')`
   }
 `;
 
-const VideoThumbnail = styled('div')`
+const VideoThumbnail = styled("div")`
   position: absolute;
   display: flex;
   align-items: center;
@@ -184,20 +169,20 @@ const VideoThumbnail = styled('div')`
   }
 `;
 
-const Play = styled('img')`
+const Play = styled("img")`
   height: 50px;
   position: relative;
   z-index: 1;
   cursor: pointer;
 `;
 
-const ArrowDown = styled('img')`
+const ArrowDown = styled("img")`
   transform: rotateZ(90deg);
   height: 16px;
   margin-left: 12px;
 `;
 
-const HeadlineWrap = styled('div')`
+const HeadlineWrap = styled("div")`
   display: flex;
   justify-content: flex-start;
   padding-top: 88px;
@@ -212,11 +197,11 @@ const HeadlineWrap = styled('div')`
     padding-top: 108px;
     margin-left: auto;
     margin-right: auto;
-    z-index: 6;
+    z-index: 1;
   }
 `;
 
-const Headline = styled('div')`
+const Headline = styled("div")`
   font-family: Circular;
   font-style: normal;
   line-height: 85px;
@@ -244,7 +229,7 @@ const Headline = styled('div')`
   }
 `;
 
-const Byline = styled('div')`
+const Byline = styled("div")`
   font-family: Circular;
   font-weight: 500;
   line-height: normal;
@@ -266,7 +251,7 @@ const Byline = styled('div')`
   }
 `;
 
-const HeroCaption = styled('div')`
+const HeroCaption = styled("div")`
   font-family: sans-serif;
   line-height: 20px;
   font-size: 12px;
@@ -302,7 +287,7 @@ const HeroCaption = styled('div')`
   }
 `;
 
-const Bar = styled('div')`
+const Bar = styled("div")`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -319,54 +304,118 @@ const Bar = styled('div')`
   );
 `;
 
-class Hero extends Component {
-  render() {
-    return (
-      <HeroWrap>
-        <HeadlineWrap>
-          <Headline>
-            Stab’s Guide To The Best Wetsuits of Winter '19/'20
-          </Headline>
-        </HeadlineWrap>
-        <LeftPanel>
-          <Bar />
-          <StabLogo src={Logo} />
-          <Social />
-          <HeroCaption>
-            <p>
-             Nobody wants to wear a 4/3 if they don't have to, so
-            it's our job to keep you in a 3-mil as long as possible. But, if
-            that extra millimeter of rubber is required, we want to make sure
-            that you don't end up in a rubber straitjacket. The tester?  Stab's
-            resident tech geek, Michael Ciaramella. Having exclusively worn Xcel
-            neoprene for the past decade, Mike's utter ignorance of these six
-            neoprene brands makes him uniquely qualified for the task, as he is
-            a truly unbiased subject. Watch above as Mike samples 12 rubber
-            tuxedos both in and out of frigid Central California waters, in an
-            attempt to answer the question: who makes the warmest and most
-            comfortable wetsuits in 2019/2020?
-            </p>
-            
-          </HeroCaption>
-        </LeftPanel>
-        <RightPanel>
+const NavButton = styled(UI.NavButton)`
+  border-bottom-left-radius: 2px;
+  background-color: #111;
+
+  @media (max-width: 892px) {
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 40px;
+  }
+`;
+
+const RightMenuWrap = styled("div")`
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  z-index: 4;
+`;
+
+const Menu = styled("div")`
+  position: absolute;
+  transition: 0.2s ease;
+  cursor: pointer;
+
+  margin-top: 24px;
+  font-size: 14px;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+
+  .item {
+    white-space: nowrap;
+    min-width: 120px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s ease;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+`;
+
+const ArchiveMenu = styled("div")`
+  position: relative;
+  color: #fff;
+  z-index: 2;
+  margin-right: 16px;
+`;
+
+const ArchiveLink = styled("div")`
+  cursor: pointer;
+`;
+
+const Hero = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  return (
+    <HeroWrap>
+      <HeadlineWrap>
+        <Headline>Stab’s Guide To The Best Wetsuits of Winter '19/'20</Headline>
+      </HeadlineWrap>
+      <LeftPanel>
+        <Bar />
+        <StabLogo src={Logo} />
+        <Social />
+        <HeroCaption>
+          <p>
+            Nobody wants to wear a 4/3 if they don't have to, so it's our job to
+            keep you in a 3-mil as long as possible. But, if that extra
+            millimeter of rubber is required, we want to make sure that you
+            don't end up in a rubber straitjacket. The tester? Stab's resident
+            tech geek, Michael Ciaramella. Having exclusively worn Xcel neoprene
+            for the past decade, Mike's utter ignorance of these six neoprene
+            brands makes him uniquely qualified for the task, as he is a truly
+            unbiased subject. Watch above as Mike samples 12 rubber tuxedos both
+            in and out of frigid Central California waters, in an attempt to
+            answer the question: who makes the warmest and most comfortable
+            wetsuits in 2019/2020?
+          </p>
+        </HeroCaption>
+      </LeftPanel>
+      <RightPanel>
+        <RightMenuWrap>
+          <ArchiveMenu>
+            <ArchiveLink
+              onClick={() =>
+                window.open("https://season-winter-19-20.stabrecommends.com/")
+              }
+            >
+              Winter 19/20
+            </ArchiveLink>
+          </ArchiveMenu>
           <NavButton href="https://www.stabmag.com">
             VISIT STABMAG.COM
           </NavButton>
-          <BottomBar>
-            <div className="mobile-arrow">
-              <ArrowDown src={Arrow} />
-            </div>
-            <div className="text">
-              BEST WETSUITS OF 2019
-              <ArrowDown src={Arrow} />
-            </div>
-          </BottomBar>
-          <Filter lighter />
-        </RightPanel>
-      </HeroWrap>
-    );
-  }
-}
+        </RightMenuWrap>
+
+        <BottomBar>
+          <div className="mobile-arrow">
+            <ArrowDown src={Arrow} />
+          </div>
+          <div className="text">
+            BEST WETSUITS OF 2019
+            <ArrowDown src={Arrow} />
+          </div>
+        </BottomBar>
+        <Filter lighter />
+      </RightPanel>
+    </HeroWrap>
+  );
+};
 
 export default Hero;
