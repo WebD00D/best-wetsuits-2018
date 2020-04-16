@@ -52,7 +52,7 @@ const RightPanel = styled("div")`
   flex: 2;
   background-color: ${theme.colors.black};
   background-repeat: no-repeat;
-  background: url("https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/best-swimwear-2020%2Fcover_1.jpg?alt=media&token=02c579c8-4922-4b27-9d93-e5b347a3db76");
+  background: url("https://firebasestorage.googleapis.com/v0/b/volcome-house.appspot.com/o/best-swimwear-2020%2Fzbush_7M9A7030_RT.jpg?alt=media&token=2a31bb16-cf5e-4879-b6b3-7f07f1bed0c0");
   background-size: cover;
   background-position: center;
 `;
