@@ -6,6 +6,6 @@
     "white": "#ffffff",
     "grey": "#C8C1C1",
     "filter": "rgba(37,37,37,0.8)",
-    "filterLight": "rgba(37,37,37,0.3)"
+    "filterLight": "rgba(255,255,255,0.3)"
   }
 }

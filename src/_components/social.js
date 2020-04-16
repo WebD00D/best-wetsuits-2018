@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
-import styled from 'react-emotion';
+import React, { Component } from "react";
+import styled from "react-emotion";
 
-import * as UI from '../_components/ui';
-import theme from '../theme.json';
+import * as UI from "../_components/ui";
+import theme from "../theme.json";
 
-import Instagram from '../_assets/icons/instagram.svg';
-import Twitter from '../_assets/icons/twitter.svg';
-import Facebook from '../_assets/icons/facebook.svg';
-import Share from '../_assets/icons/share.svg';
+import Instagram from "../_assets/icons/instagram.svg";
+import Twitter from "../_assets/icons/twitter.svg";
+import Facebook from "../_assets/icons/facebook.svg";
+import Share from "../_assets/icons/share.svg";
 
-const SocialWrap = styled('div')`
+const SocialWrap = styled("div")`
   display: flex;
   flex-direction: column;
   position: relative;
@@ -24,7 +24,7 @@ const SocialWrap = styled('div')`
   }
 `;
 
-const SocialLink = styled('a')`
+const SocialLink = styled("a")`
   margin-bottom: 18px;
   img {
     height: 20px;
@@ -37,8 +37,8 @@ const SocialLink = styled('a')`
   }
 `;
 
-const StabMagText = styled('a')`
-  color: ${theme.colors.grey};
+const StabMagText = styled("a")`
+  color: #111;
   font-size: 10px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -68,7 +68,7 @@ class Social extends Component {
           <img src={Facebook} />
         </SocialLink>
         <StabMagText target="_blank" href="https://www.stabmag.com">
-          BEST WETSUITS
+          BEST SWIMWEAR
         </StabMagText>
       </SocialWrap>
     );

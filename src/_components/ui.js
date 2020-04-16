@@ -14,7 +14,7 @@ export const NavButton = styled('a')`
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #fff !important;
+  color: #111;
   text-decoration: none !important;
 
   transition: 0.2s ease;

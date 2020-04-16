@@ -1,32 +1,32 @@
-import React, { Component } from 'react';
-import styled from 'react-emotion';
+import React, { Component } from "react";
+import styled from "react-emotion";
 
-import * as UI from './ui';
-import theme from '../theme.json';
+import * as UI from "./ui";
+import theme from "../theme.json";
 
-import SamplePhotoOne from '../_assets/images/sample/category-cover.jpg';
-import SamplePhotoTwo from '../_assets/images/sample/hurley.jpeg';
+import SamplePhotoOne from "../_assets/images/sample/category-cover.jpg";
+import SamplePhotoTwo from "../_assets/images/sample/hurley.jpeg";
 
-import Facebook from '../_assets/icons/facebook.svg';
-import Twitter from '../_assets/icons/twitter.svg';
+import Facebook from "../_assets/icons/facebook.svg";
+import Twitter from "../_assets/icons/twitter.svg";
 
-import Slider from 'react-slick';
+import Slider from "react-slick";
 
-import Arrow from '../_assets/icons/arrow.svg';
-import Close from '../_assets/icons/closeme.svg';
+import Arrow from "../_assets/icons/arrow.svg";
+import Close from "../_assets/icons/closeme.svg";
 
-import Play from '../_assets/icons/play.png';
+import Play from "../_assets/icons/play.png";
 
-import StabRecommends from '../_assets/images/SRBlack.png';
+import StabRecommends from "../_assets/images/SRBlack.png";
 
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-const CategoryBar = styled('div')`
+const CategoryBar = styled("div")`
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px solid #111;
+  border-bottom: 1px solid #f5f5f5;
   width: 100%;
   height: 20px;
   background-image: repeating-linear-gradient(
@@ -37,13 +37,21 @@ const CategoryBar = styled('div')`
     #202020 8px
   );
 
+  background-image: repeating-linear-gradient(
+    120deg,
+    #d3d3d3,
+    #d3d3d3 1px,
+    #f5f5f5 1px,
+    #f5f5f5 8px
+  );
+
   @media (max-width: 992px) {
     width: 100%;
     height: 60px;
   }
 `;
 
-const Number = styled('div')`
+const Number = styled("div")`
   display: flex;
   align-items: center;
   text-transform: uppercase;
@@ -51,7 +59,7 @@ const Number = styled('div')`
   letter-spacing: 4px;
   color: #ccc;
 
-  display:none;
+  display: none;
 
   .number {
     width: 50px;
@@ -69,7 +77,7 @@ const Number = styled('div')`
   }
 `;
 
-const VideoPreview = styled('div')`
+const VideoPreview = styled("div")`
   overflow: hidden;
   position: relative;
   width: 60%;
@@ -78,7 +86,7 @@ const VideoPreview = styled('div')`
   align-items: center;
   justify-content: center;
 
-  background-image: url(${props => props.bg});
+  background-image: url(${(props) => props.bg});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -89,24 +97,24 @@ const VideoPreview = styled('div')`
   }
 `;
 
-const Video = styled('div')`
+const Video = styled("div")`
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 
-  background-image: url(${props => props.bg});
+  background-image: url(${(props) => props.bg});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   transition: 0.8s ease;
 `;
 
-const ContentWrapper = styled('div')`
+const ContentWrapper = styled("div")`
   position: relative;
   width: calc(100% - 60%);
-  background-color: #111;
+  background-color: #f5f5f5;
 
   .container {
     padding: 30px;
@@ -131,12 +139,12 @@ const ContentWrapper = styled('div')`
       text-transform: uppercase;
       font-size: 8px;
       letter-spacing: 2px;
-      color: #ccc;
+      color: #252525;
       opacity: 0.4;
     }
 
     h2 {
-      color: #ccc;
+      color: #111;
       margin: 0px;
       font-family: Circular Book;
       max-width: 85%;
@@ -151,7 +159,7 @@ const ContentWrapper = styled('div')`
     opacity: 0.1;
     transition: 0.5s ease;
 
-    color: #ccc;
+    color: #111;
     font-family: Circular Book;
 
     p {
@@ -163,7 +171,7 @@ const ContentWrapper = styled('div')`
       text-transform: uppercase;
       font-size: 10px;
       letter-spacing: 4px;
-      color: #ccc;
+      color: #111;
       cursor: pointer;
     }
   }
@@ -183,14 +191,14 @@ const ContentWrapper = styled('div')`
   }
 `;
 
-const Container = styled('div')`
+const Container = styled("div")`
   max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
 
   box-shadow: 5px -5px 20px rgba(0, 0, 0, 0.2);
 
-  border-top: 1px solid #111;
+  border-top: none;
   display: flex;
   flex-direction: column;
   transition: 0.2s ease;
@@ -268,22 +276,22 @@ const Container = styled('div')`
   }
 `;
 
-const PlayButton = styled('img')`
+const PlayButton = styled("img")`
   cursor: pointer;
   height: 45px;
 `;
 
-const FlexWrap = styled('div')`
+const FlexWrap = styled("div")`
   min-height: 420px;
   display: flex;
-  flex-direction: ${props => props.dir};
+  flex-direction: ${(props) => props.dir};
 
   @media (max-width: 992px) {
     flex-direction: column;
   }
 `;
 
-const StabRecommendsLogo = styled('img')`
+const StabRecommendsLogo = styled("img")`
   position: absolute;
   height: 38px;
   top: 30px;
@@ -296,7 +304,7 @@ class Section extends Component {
 
     this.state = {
       images: [],
-      showMore: false
+      showMore: false,
     };
   }
   j;
@@ -304,16 +312,26 @@ class Section extends Component {
   render() {
     const paragraphs =
       this.props.data.paragraphs &&
-      Object.keys(this.props.data.paragraphs).map(key => {
+      Object.keys(this.props.data.paragraphs).map((key) => {
         const paragraph = this.props.data.paragraphs[key];
         return <p key={`paragraph-${key}`}>{paragraph}</p>;
       });
 
     const wetsuits =
       this.props.data.wetsuits &&
-      Object.keys(this.props.data.wetsuits).map(key => {
+      Object.keys(this.props.data.wetsuits).map((key) => {
         console.log(this.props.data.wetsuits[key]);
-        return <li key={`option-${key}`}><a style={{color: "#ccc"}} target="_blank" href={this.props.data.wetsuits[key].link}>{this.props.data.wetsuits[key].name}</a></li>;
+        return (
+          <li key={`option-${key}`}>
+            <a
+              style={{ color: "#ccc" }}
+              target="_blank"
+              href={this.props.data.wetsuits[key].link}
+            >
+              {this.props.data.wetsuits[key].name}
+            </a>
+          </li>
+        );
       });
 
     return (
@@ -329,7 +347,7 @@ class Section extends Component {
             {this.props.data.specialAlignment ? (
               <StabRecommendsLogo src={StabRecommends} />
             ) : (
-              ''
+              ""
             )}
           </VideoPreview>
           <ContentWrapper>
@@ -349,7 +367,7 @@ class Section extends Component {
                 <div className="section-summary">
                   {paragraphs}
                   <ul>{wetsuits}</ul>
-                  {this.props.type === 'brand' ? (
+                  {this.props.type === "brand" ? (
                     <a
                       target="_blank"
                       href={this.props.data.featureURL}
@@ -358,7 +376,7 @@ class Section extends Component {
                       VIEW FULL FEATURE
                     </a>
                   ) : (
-                    ''
+                    ""
                   )}
                 </div>
               </div>

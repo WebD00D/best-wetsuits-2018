@@ -1,21 +1,21 @@
-import React, { Component } from 'react';
-import styled from 'react-emotion';
+import React, { Component } from "react";
+import styled from "react-emotion";
 
-import * as UI from './_components/ui';
-import theme from './theme.json';
+import * as UI from "./_components/ui";
+import theme from "./theme.json";
 
-import Logo from './_assets/images/stab-logo-white.png';
+import Logo from "./_assets/images/logo-black.png";
 
-import Hero from './_components/hero';
-import Section from './_components/section';
-import FullscreenVideo from './_components/fullscreenVideo';
+import Hero from "./_components/hero";
+import Section from "./_components/section";
+import FullscreenVideo from "./_components/fullscreenVideo";
 
-import VideoModal from './_components/videoModal';
+import VideoModal from "./_components/videoModal";
 
-import data from './_data/categories.json';
+import data from "./_data/categories.json";
 
-const Title = styled('div')`
-  color: ${theme.colors.grey};
+const Title = styled("div")`
+  color: #111;
   text-transform: uppercase;
   text-decoration: none !important;
   text-align: center;
@@ -33,7 +33,7 @@ const Title = styled('div')`
   }
 `;
 
-const Footer = styled('div')`
+const Footer = styled("div")`
   height: 150px;
   display: flex;
   align-items: center;
@@ -41,7 +41,7 @@ const Footer = styled('div')`
   flex-direction: column;
 `;
 
-const Caption = styled('div')`
+const Caption = styled("div")`
   color: ${theme.colors.grey};
   font-size: 8px;
   margin-top: 12px;
@@ -51,7 +51,7 @@ const Caption = styled('div')`
   text-decoration: none !important;
 `;
 
-const StabLogo = styled('img')`
+const StabLogo = styled("img")`
   height: 30px;
 
   z-index: 4;
@@ -63,7 +63,7 @@ class App extends Component {
 
     this.state = {
       video: false,
-      url: ''
+      url: "",
     };
   }
 
@@ -71,14 +71,14 @@ class App extends Component {
     console.log(video);
     this.setState({
       video: true,
-      url: video
+      url: video,
     });
   }
 
   hideVideo() {
     this.setState({
       video: false,
-      url: ''
+      url: "",
     });
   }
 
@@ -94,7 +94,7 @@ class App extends Component {
   }
 
   render() {
-    const categories = Object.keys(data['categories']).map(key => {
+    const categories = Object.keys(data["categories"]).map((key) => {
       let number = Number(key) + 1;
 
       if (number < 10) {
@@ -104,17 +104,16 @@ class App extends Component {
       return (
         <Section
           key={key}
-          data={data['categories'][key]}
-          dir={number % 2 == 0 ? 'row-reverse' : 'row'}
-          showVideo={video => this.showVideo(video)}
+          data={data["categories"][key]}
+          dir={number % 2 == 0 ? "row-reverse" : "row"}
+          showVideo={(video) => this.showVideo(video)}
           num={number}
           type="category"
         />
       );
     });
 
-  
-    const brands = Object.keys(data['brands']).map(key => {
+    const brands = Object.keys(data["brands"]).map((key) => {
       let number = Number(key) + 1;
 
       if (number < 10) {
@@ -124,9 +123,9 @@ class App extends Component {
       return (
         <Section
           key={key}
-          data={data['brands'][key]}
-          dir={number % 2 == 0 ? 'row-reverse' : 'row'}
-          showVideo={video => this.showVideo(video)}
+          data={data["brands"][key]}
+          dir={number % 2 == 0 ? "row-reverse" : "row"}
+          showVideo={(video) => this.showVideo(video)}
           num={number}
           type="brand"
         />
@@ -135,14 +134,14 @@ class App extends Component {
 
     return (
       <div>
-        <Hero  />
-        <Title>WATCH THE NOTHERN HEMISPHERE EDITION</Title>
-        <FullscreenVideo showVideo={video => this.showVideo(video)} />
+        <Hero />
+        {/* <Title>WATCH THE NOTHERN HEMISPHERE EDITION</Title> */}
+        {/* <FullscreenVideo showVideo={video => this.showVideo(video)} /> */}
         <Title>Meet the brands</Title>
-        {brands}      
+        {brands}
         <Footer>
           <StabLogo src={Logo} />
-          <Caption>BEST WETSUITS OF 2019</Caption>
+          <Caption>BEST SWIMWEAR OF 2020</Caption>
         </Footer>
         {this.renderVideoPopup()}
       </div>
