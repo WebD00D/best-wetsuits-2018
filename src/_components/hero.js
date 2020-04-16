@@ -391,11 +391,9 @@ const Hero = () => {
         <RightMenuWrap>
           <ArchiveMenu>
             <ArchiveLink
-              onClick={() =>
-                window.open("https://season-winter-19-20.stabrecommends.com/")
-              }
+              onClick={() => window.open("https://stabrecommends.com/")}
             >
-              Winter 19/20
+              Best Swimwear 2020
             </ArchiveLink>
           </ArchiveMenu>
           <NavButton href="https://www.stabmag.com">
