@@ -360,8 +360,6 @@ const ArchiveLink = styled("div")`
 `;
 
 const Hero = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
-
   return (
     <HeroWrap>
       <HeadlineWrap>
