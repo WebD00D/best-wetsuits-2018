@@ -356,7 +356,10 @@ const Hero = () => {
       </HeadlineWrap>
       <LeftPanel>
         <Bar />
-        <StabLogo src={Logo} />
+        <a href="https://www.stabmag.com">
+          <StabLogo src={Logo} />
+        </a>
+
         <Social />
         <HeroCaption>
           <p>
@@ -391,7 +394,7 @@ const Hero = () => {
             <ArrowDown src={Arrow} />
           </div>
           <div className="text">
-            BEST SWIMWEAR 2020
+            BEST BOARDSHORTS AND SWIMEAR 2020
             <ArrowDown src={Arrow} />
           </div>
         </BottomBar>

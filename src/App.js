@@ -141,7 +141,7 @@ class App extends Component {
         {brands}
         <Footer>
           <StabLogo src={Logo} />
-          <Caption>BEST SWIMWEAR OF 2020</Caption>
+          <Caption> BEST BOARDSHORTS AND SWIMEAR 2020</Caption>
         </Footer>
         {this.renderVideoPopup()}
       </div>
